@@ -1,3 +1,10 @@
 maind.py
 __pycache__
 giteetoken
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
