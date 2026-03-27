@@ -45,7 +45,7 @@ jobs:
       
       - name: Configure Git for Gitee
         run: |
-          git remote add gitee https://gitee.com/yourname/your-repo.git
+          git remote add gitee https://gitee.com/wzyaeu/pcl-bangumi-page.git
 
           git config --global user.name "wzyaeu"
           
@@ -56,7 +56,7 @@ jobs:
           GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
         run: |
 
-          GITEE_REPO="https://${GITEE_TOKEN}@gitee.com/yourname/your-repo.git"
+          GITEE_REPO="https://${GITEE_TOKEN}@gitee.com/wzyaeu/pcl-bangumi-page.git"
           git remote remove gitee || true
           git remote add gitee "${GITEE_REPO}"
           git push gitee HEAD:main
