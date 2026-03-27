@@ -6,7 +6,7 @@ import requests
 def anime_rank_build():
     savef('anime_rank.json',json.dumps(
         {
-            "Title": "PCL Bangumi 动画Rank排行榜"
+            "Title": "PCL Bangumi 动画排行榜"
         }
     ,ensure_ascii=False))
 
