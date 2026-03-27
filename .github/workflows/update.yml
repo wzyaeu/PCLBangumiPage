@@ -37,8 +37,26 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Commit and push changes
+      - name: Push to Github
         run: |
           git add .
           git diff --cached --quiet || git commit -m "自动更新"
           git push
+      
+      - name: Configure Git for Gitee
+        run: |
+          git remote add gitee https://gitee.com/yourname/your-repo.git
+
+          git config --global user.name "wzyaeu"
+          
+          git config --global user.email "your-email@example.com"
+
+      - name: Push to Gitee
+        env:
+          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
+        run: |
+
+          GITEE_REPO="https://${GITEE_TOKEN}@gitee.com/yourname/your-repo.git"
+          git remote remove gitee || true
+          git remote add gitee "${GITEE_REPO}"
+          git push gitee HEAD:main
