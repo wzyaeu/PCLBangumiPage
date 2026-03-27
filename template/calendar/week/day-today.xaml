@@ -1,0 +1,29 @@
+<!-- <local:MyCard Margin="2,10,2,2">
+    <Border Background="{DynamicResource ColorBrush3}"
+            CornerRadius="5,0,0,5"
+            Margin="0,0,108,0"></Border>
+    <local:MyButton HorizontalAlignment="Right"
+            Text="查看本周放送"
+            Margin="0,0,4,0"
+            Height="28"
+            Width="100"
+            EventType="打开帮助"
+            EventData="calendar_all.json"/>
+    <StackPanel Orientation="Horizontal">
+        <TextBlock Margin="8,8,0,8"
+                FontWeight="Bold"
+                FontSize="18"
+                VerticalAlignment="Center"
+                Foreground="{DynamicResource ColorBrush8}"
+                Text="今天"/>
+        <TextBlock Margin="8"
+                FontWeight="Bold"
+                FontSize="18"
+                VerticalAlignment="Center"
+                Foreground="{DynamicResource ColorBrush8}"
+                Text="{{text}}"/>
+    </StackPanel>
+</local:MyCard> -->
+<WrapPanel Margin="0,2">{{card}}
+</WrapPanel>
+

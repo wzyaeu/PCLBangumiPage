@@ -1,0 +1,3 @@
+<TextBlock Style="{StaticResource RankItemTagText}"
+           Text="{{text}}"
+           ToolTip="{{text}}: {{count}}" />

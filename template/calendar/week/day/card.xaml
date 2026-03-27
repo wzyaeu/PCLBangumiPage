@@ -1,0 +1,36 @@
+<local:MyCard  Style="{StaticResource DayCardStyle}">
+    <Grid Style="{StaticResource CardGrid}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel>
+            <local:MyImage Source="{{pic}}"/>
+        </StackPanel>
+        <Border Style="{StaticResource DayCardRankBorder}">
+            <StackPanel Style="{StaticResource DayCardRankStackPanel}">
+                <TextBlock
+                           Style="{StaticResource DayCardRankTitle}"/>
+                <TextBlock
+                    Style="{StaticResource DayCardRankValue}"
+                    Text="{{rank}}"/>
+            </StackPanel >
+        </Border>
+        <Border Style="{StaticResource DayCardScoreBorder}">
+            <StackPanel Style="{StaticResource DayCardScoreStackPanel}">
+                <TextBlock Style="{StaticResource DayCardScoreText}"
+                           Text="评分 {{score}}"
+                           ToolTip="{{score-all}} 人评分&#xa;&#xa;详细评级&#xa;10: {{score-10}}&#xa;9: {{score-9}}&#xa;8: {{score-8}}&#xa;7: {{score-7}}&#xa;6: {{score-6}}&#xa;5: {{score-5}}&#xa;4: {{score-4}}&#xa;3: {{score-3}}&#xa;2: {{score-2}}&#xa;1: {{score-1}}"/>
+            </StackPanel >
+        </Border>
+        <Border Style="{StaticResource DayCardBottomMask}"/>
+        <StackPanel Style="{StaticResource DayCardBottomStackPanel}">
+            <TextBlock Style="{StaticResource DayCardNameText}"
+                       Text="{{name-cn}}"
+                       ToolTip="{{name-cn}} / {{name}}"/>
+            <local:MyButton Style="{StaticResource DayCardViewButton}"
+                            Text="查看"
+                            EventType="打开网页"
+                            EventData="{{link}}"/>
+        </StackPanel>
+    </Grid>
+</local:MyCard>

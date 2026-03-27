@@ -1,0 +1,7 @@
+
+<local:MyCard Margin="2,10,2,2" Visibility="{variable:Day{{id}}VisitTrue:Visible}"> <TextBlock Margin="8" FontWeight="Bold" FontSize="18" VerticalAlignment="Center" Foreground="{DynamicResource ColorBrush3}" Text="{{text}}"/> <local:CustomEventService.Events> <local:CustomEventCollection> <local:CustomEvent Type="修改变量" Data="Day{{id}}VisitTrue|Collapsed|-"/> <local:CustomEvent Type="修改变量" Data="Day{{id}}VisitFalse|Visible|-"/> <local:CustomEvent Type="刷新页面" Data="-"/> </local:CustomEventCollection> </local:CustomEventService.Events>
+</local:MyCard>
+<local:MyCard Margin="2,10,2,2" Visibility="{variable:Day{{id}}VisitFalse:Collapsed}"> <TextBlock Margin="8" FontWeight="Bold" FontSize="18" VerticalAlignment="Center" Foreground="{DynamicResource ColorBrush3}" Text="{{text}}"/> <local:CustomEventService.Events> <local:CustomEventCollection> <local:CustomEvent Type="修改变量" Data="Day{{id}}VisitTrue|Visible|-"/> <local:CustomEvent Type="修改变量" Data="Day{{id}}VisitFalse|Collapsed|-"/> <local:CustomEvent Type="刷新页面" Data="-"/> </local:CustomEventCollection> </local:CustomEventService.Events>
+</local:MyCard>
+<WrapPanel Margin="0,2" Visibility="{variable:Day{{id}}VisitTrue:Visible}"> {{card}}
+</WrapPanel>

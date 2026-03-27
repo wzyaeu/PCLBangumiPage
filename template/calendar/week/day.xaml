@@ -1,0 +1,6 @@
+<local:MyCard Margin="2,10,2,2">
+    <TextBlock Style="{StaticResource DayTitle}"
+               Text="{{text}}"/>
+</local:MyCard>
+<WrapPanel Margin="0,2">{{card}}
+</WrapPanel>

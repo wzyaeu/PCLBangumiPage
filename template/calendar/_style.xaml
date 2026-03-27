@@ -1,0 +1,156 @@
+<StackPanel.Resources>
+    <Style x:Key="DayTitle"
+            TargetType="TextBlock">
+        <Setter Property="Margin"
+                Value="8"/>
+        <Setter Property="FontWeight"
+                Value="Bold"/>
+        <Setter Property="FontSize"
+                Value="18"/>
+        <Setter Property="Margin"
+                Value="8"/>
+        <Setter Property="VerticalAlignment"
+                Value="Center"/>
+        <Setter Property="Foreground"
+                Value="{DynamicResource ColorBrush3}"/>
+    </Style>
+    <Style x:Key="DayCardStyle"
+            TargetType="local:MyCard">
+        <Setter Property="Margin"
+                Value="5"/>
+        <Setter Property="Width"
+                Value="150"/>
+        <Setter Property="Height"
+                Value="150"/>
+    </Style>
+    <Style x:Key="DayCardRankBorder"
+            TargetType="Border">
+        <Setter Property="VerticalAlignment"
+                Value="Top"/>
+        <Setter Property="HorizontalAlignment"
+                Value="Right"/>
+        <Setter Property="Height"
+                Value="25"/>
+        <Setter Property="Margin"
+                Value="3"/>
+        <Setter Property="Background"
+                Value="#00b0ff"/>
+        <Setter Property="CornerRadius"
+                Value="7"/>
+    </Style>
+    <Style x:Key="DayCardRankStackPanel"
+            TargetType="StackPanel">
+        <Setter Property="HorizontalAlignment"
+                Value="Stretch"/>
+        <Setter Property="Margin"
+                Value="3"/>
+        <Setter Property="VerticalAlignment"
+                Value="Bottom"/>
+        <Setter Property="Orientation"
+                Value="Horizontal"/>
+    </Style>
+    <Style x:Key="DayCardRankTitle"
+           TargetType="TextBlock">
+        <Setter Property="FontSize"
+                Value="11"/>
+        <Setter Property="Margin"
+                Value="2,0,0,0"/>
+        <Setter Property="Foreground"
+                Value="{DynamicResource ColorBrush8}"/>
+        <Setter Property="VerticalAlignment"
+                Value="Bottom"/>
+        <Setter Property="Text"
+                Value="Rank"/>
+    </Style>
+    <Style x:Key="CardGrid"
+           TargetType="Grid">
+        <Setter Property="Margin"
+                Value="10"/>
+    </Style>
+    <Style x:Key="DayCardRankValue"
+           TargetType="TextBlock">
+        <Setter Property="FontSize"
+                Value="16"/>
+        <Setter Property="Margin"
+                Value="3,0,0,0"/>
+        <Setter Property="Foreground"
+                Value="{DynamicResource ColorBrush8}"/>
+    </Style>
+    <Style x:Key="DayCardScoreBorder"
+            TargetType="Border">
+        <Setter Property="VerticalAlignment"
+                Value="Top"/>
+        <Setter Property="HorizontalAlignment"
+                Value="Right"/>
+        <Setter Property="Height"
+                Value="19"/>
+        <Setter Property="Margin"
+                Value="3,30,3,3"/>
+        <Setter Property="Background"
+                Value="#ffb53d"/>
+        <Setter Property="CornerRadius"
+                Value="7"/>
+    </Style>
+    <Style x:Key="DayCardScoreStackPanel"
+            TargetType="StackPanel">
+        <Setter Property="Margin"
+                Value="3"/>
+        <Setter Property="HorizontalAlignment"
+                Value="Stretch"/>
+        <Setter Property="VerticalAlignment"
+                Value="Bottom"/>
+        <Setter Property="Orientation"
+                Value="Horizontal"/>
+    </Style>
+    <Style x:Key="DayCardScoreText"
+            TargetType="TextBlock">
+        <Setter Property="VerticalAlignment"
+                Value="Bottom"/>
+        <Setter Property="FontSize"
+                Value="11"/>
+        <Setter Property="Foreground"
+                Value="{DynamicResource ColorBrush8}"/>
+    </Style>
+    <Style x:Key="DayCardBottomMask"
+            TargetType="Border">
+        <Setter Property="VerticalAlignment"
+                Value="Bottom"/>
+        <Setter Property="Height"
+                Value="50"/>
+        <Setter Property="Background"
+                Value="Black"/>
+        <Setter Property="Opacity"
+                Value="0.4"/>
+    </Style>
+    <Style x:Key="DayCardBottomStackPanel"
+            TargetType="StackPanel">
+        <Setter Property="VerticalAlignment"
+                Value="Bottom"/>
+        <Setter Property="Height"
+                Value="50"/>
+    </Style>
+    <Style x:Key="DayCardNameText"
+            TargetType="TextBlock">
+        <Setter Property="Margin"
+                Value="4"/>
+        <Setter Property="FontWeight"
+                Value="Bold"/>
+        <Setter Property="FontSize"
+                Value="15"/>
+        <Setter Property="Height"
+                Value="17"/>
+        <Setter Property="Foreground"
+                Value="{DynamicResource ColorBrush8}"/>
+    </Style>
+    <Style x:Key="DayCardViewButton"
+            TargetType="local:MyButton">
+        <Setter Property="HorizontalAlignment"
+                Value="Right"/>
+        <Setter Property="Margin"
+                Value="0,0,4,0"/>
+        <Setter Property="Height"
+                Value="21"/>
+        <Setter Property="Width"
+                Value="50"/>
+    </Style>
+</StackPanel.Resources>
