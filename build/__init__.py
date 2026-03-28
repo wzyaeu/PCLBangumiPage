@@ -1,6 +1,7 @@
 from .calendar import calendar_build
 from .anime_rank import anime_rank_build
 from .about import about_build
+from .html import html_build
 
 import requests
 import json
@@ -15,3 +16,4 @@ def build():
     calendar_build(json_data)
     anime_rank_build()
     about_build()
+    html_build()
