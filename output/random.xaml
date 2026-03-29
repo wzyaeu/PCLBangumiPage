@@ -1,0 +1,287 @@
+<StackPanel Margin="-5">
+    <local:MyCard Margin="0,0,0,3">
+        <StackPanel Margin="5"
+                    Orientation="Horizontal">
+            <Border Background="{DynamicResource ColorBrush4}"
+                    CornerRadius="5">
+                <TextBlock Margin="5,0,5,0"
+                           VerticalAlignment="Center"
+                           FontSize="18"
+                           Foreground="{DynamicResource ColorBrush7}"
+                           Text="PCL Bangumi Page"/>
+            </Border>
+            <TextBlock Margin="10,3,3,3"
+                       FontWeight="Bold"
+                       FontSize="16"
+                       VerticalAlignment="Center"
+                       Foreground="{DynamicResource ColorBrush3}"
+                       Text="随机推番"/>
+            <local:MyIconTextButton Margin="2"
+                                    Height="35"
+                                    VerticalAlignment="Center"
+                                    Text="刷新"
+                                    EventType="刷新页面"
+                                    LogoScale="1"
+                                    Logo="M841.140212 512.013257c0 181.498884-147.641328 329.140212-329.140212 329.140212s-329.140212-147.641328-329.140212-329.140212c0-175.391505 137.999348-318.746696 311.068586-328.211305l0 99.641714c0 3.249345 1.749929 6.286578 4.571392 7.928622 1.428103 0.821022 3.000662 1.214162 4.571392 1.214162s3.143289-0.39314 4.571392-1.214162l237.569748-137.141755c2.821463-1.642044 4.571392-4.679277 4.571392-7.928622s-1.749929-6.286578-4.571392-7.928622l-237.569748-137.141755c-2.856206-1.642044-6.286578-1.642044-9.142784 0-2.821463 1.642044-4.571392 4.679277-4.571392 7.928622l0 101.499527C280.537631 120.195606 109.717518 296.300248 109.717518 512.013257c0 221.820389 180.462093 402.282482 402.282482 402.282482s402.282482-180.462093 402.282482-402.282482L841.140212 512.013257z"/>
+        </StackPanel>
+    </local:MyCard>
+    <local:MyCard Margin="0,10">
+        <StackPanel Margin="5">
+            <Grid Margin="10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"
+                                      MaxWidth="200"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+                <local:MyImage
+                    Source="https://lain.bgm.tv/r/800/pic/cover/l/6c/1d/1368_pWACi.jpg"
+                    Grid.Column="0"/>
+                <StackPanel Grid.Column="1"
+                            Margin="5">
+                    <TextBlock
+                        FontSize="25"
+                        Text="父女七日变 / パパとムスメの7日間"
+                        ToolTip="父女七日变 / パパとムスメの7日間"
+                        FontWeight="Bold"
+                        Foreground="{DynamicResource ColorBrush3}"
+                        Margin="5"/>
+                    <Border Background="#ffb53d"
+                            Margin="5"
+                            CornerRadius="10"
+                            HorizontalAlignment="Left">
+                        <StackPanel>
+                            <TextBlock
+                                FontSize="20"
+                                Text="Score 7.6"
+                                Foreground="#ffffff"
+                                Margin="8,8,0,0"/>
+                            <Grid Margin="10"
+                                  Width="200"
+                                  Height="70">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                </Grid.ColumnDefinitions>
+                                <StackPanel
+                                    VerticalAlignment="Bottom"
+                                    Grid.Column="0">
+                                    <Border
+                                        Height="2"
+                                        Background="#ffe3b7"
+                                        CornerRadius="5"
+                                        Margin="2,0">
+                                    </Border>
+                                    <TextBlock
+                                        FontSize="13"
+                                        Text="10"
+                                        Foreground="{DynamicResource ColorBrush8}"
+                                        Margin="0,2,0,0"
+                                        HorizontalAlignment="Center"/>
+                                </StackPanel>
+                                <StackPanel
+                                    VerticalAlignment="Bottom"
+                                    Grid.Column="1">
+                                    <Border
+                                        Height="3"
+                                        Background="#ffe3b7"
+                                        CornerRadius="5"
+                                        Margin="2,0">
+                                    </Border>
+                                    <TextBlock
+                                        FontSize="13"
+                                        Text="9"
+                                        Foreground="{DynamicResource ColorBrush8}"
+                                        Margin="0,2,0,0"
+                                        HorizontalAlignment="Center"/>
+                                </StackPanel>
+                                <StackPanel
+                                    VerticalAlignment="Bottom"
+                                    Grid.Column="2">
+                                    <Border
+                                        Height="24"
+                                        Background="#ffe3b7"
+                                        CornerRadius="5"
+                                        Margin="2,0">
+                                    </Border>
+                                    <TextBlock
+                                        FontSize="13"
+                                        Text="8"
+                                        Foreground="{DynamicResource ColorBrush8}"
+                                        Margin="0,2,0,0"
+                                        HorizontalAlignment="Center"/>
+                                </StackPanel>
+                                <StackPanel
+                                    VerticalAlignment="Bottom"
+                                    Grid.Column="3">
+                                    <Border
+                                        Height="15"
+                                        Background="#ffe3b7"
+                                        CornerRadius="5"
+                                        Margin="2,0">
+                                    </Border>
+                                    <TextBlock
+                                        FontSize="13"
+                                        Text="7"
+                                        Foreground="{DynamicResource ColorBrush8}"
+                                        Margin="0,2,0,0"
+                                        HorizontalAlignment="Center"/>
+                                </StackPanel>
+                                <StackPanel
+                                    VerticalAlignment="Bottom"
+                                    Grid.Column="4">
+                                    <Border
+                                        Height="4"
+                                        Background="#ffe3b7"
+                                        CornerRadius="5"
+                                        Margin="2,0">
+                                    </Border>
+                                    <TextBlock
+                                        FontSize="13"
+                                        Text="6"
+                                        Foreground="{DynamicResource ColorBrush8}"
+                                        Margin="0,2,0,0"
+                                        HorizontalAlignment="Center"/>
+                                </StackPanel>
+                                <StackPanel
+                                    VerticalAlignment="Bottom"
+                                    Grid.Column="5">
+                                    <Border
+                                        Height="0"
+                                        Background="#ffe3b7"
+                                        CornerRadius="5"
+                                        Margin="2,0">
+                                    </Border>
+                                    <TextBlock
+                                        FontSize="13"
+                                        Text="5"
+                                        Foreground="{DynamicResource ColorBrush8}"
+                                        Margin="0,2,0,0"
+                                        HorizontalAlignment="Center"/>
+                                </StackPanel>
+                                <StackPanel
+                                    VerticalAlignment="Bottom"
+                                    Grid.Column="6">
+                                    <Border
+                                        Height="0"
+                                        Background="#ffe3b7"
+                                        CornerRadius="5"
+                                        Margin="2,0">
+                                    </Border>
+                                    <TextBlock
+                                        FontSize="13"
+                                        Text="4"
+                                        Foreground="{DynamicResource ColorBrush8}"
+                                        Margin="0,2,0,0"
+                                        HorizontalAlignment="Center"/>
+                                </StackPanel>
+                                <StackPanel
+                                    VerticalAlignment="Bottom"
+                                    Grid.Column="7">
+                                    <Border
+                                        Height="0"
+                                        Background="#ffe3b7"
+                                        CornerRadius="5"
+                                        Margin="2,0">
+                                    </Border>
+                                    <TextBlock
+                                        FontSize="13"
+                                        Text="3"
+                                        Foreground="{DynamicResource ColorBrush8}"
+                                        Margin="0,2,0,0"
+                                        HorizontalAlignment="Center"/>
+                                </StackPanel>
+                                <StackPanel
+                                    VerticalAlignment="Bottom"
+                                    Grid.Column="8">
+                                    <Border
+                                        Height="0"
+                                        Background="#ffe3b7"
+                                        CornerRadius="5"
+                                        Margin="2,0">
+                                    </Border>
+                                    <TextBlock
+                                        FontSize="13"
+                                        Text="2"
+                                        Foreground="{DynamicResource ColorBrush8}"
+                                        Margin="0,2,0,0"
+                                        HorizontalAlignment="Center"/>
+                                </StackPanel>
+                                <StackPanel
+                                    VerticalAlignment="Bottom"
+                                    Grid.Column="9">
+                                    <Border
+                                        Height="0"
+                                        Background="#ffe3b7"
+                                        CornerRadius="5"
+                                        Margin="2,0">
+                                    </Border>
+                                    <TextBlock
+                                        FontSize="13"
+                                        Text="1"
+                                        Foreground="{DynamicResource ColorBrush8}"
+                                        Margin="0,2,0,0"
+                                        HorizontalAlignment="Center"/>
+                                </StackPanel>
+                            </Grid>
+                        </StackPanel>
+                    </Border>
+                    <Border Background="#00b0ff"
+                            Margin="5"
+                            Width="220"
+                            CornerRadius="10"
+                            HorizontalAlignment="Left">
+                        <StackPanel>
+                            <TextBlock
+                                FontSize="20"
+                                Text="Rank 702"
+                                Foreground="#ffffff"
+                                Margin="8"/>
+                        </StackPanel>
+                    </Border>
+                    <Border Background="#e4f7ff"
+                            Margin="5"
+                            Width="220"
+                            CornerRadius="10"
+                            HorizontalAlignment="Left">
+                        <StackPanel>
+                            <TextBlock
+                                FontSize="18"
+                                Text="放送开始 2007-07-01"
+                                Foreground="#92dcff"
+                                Margin="10"/>
+                        </StackPanel>
+                    </Border>
+                    <local:MyTextButton 
+                                Margin="4,5,0,0" Text="查看Bangumi"
+                        EventType="打开网页"
+                        EventData="https://bgm.tv/subject/1368"/>
+                </StackPanel>
+            </Grid>
+            <Line X1="0"
+                  Y1="0"
+                  X2="1000"
+                  Y2="0"
+                  StrokeThickness="2"
+                  Stroke="{DynamicResource ColorBrush3}"
+                  Margin="10,0"/>
+            <StackPanel>
+                <TextBlock
+                    FontSize="13"
+                    Text="一次父女同乘的电车遭遇事故，机缘巧合下小梅(16)与其父恭一郎(47)突然身份互换。恭一郎满口当今女生的流行语，而小梅则张嘴就是大叔腔。
+
+两人互换了身份后，父亲变身成为女生开始了高中生活，不得不应付男朋友的约会，而小梅则要以父亲的身份到公司工作，当中发生了不小趣事。因为剧中二人感情不甚好，缺少沟通，表现出当代社会的家庭问题，制作人希望这部作品在带来欢乐的同时，能引人反思，关注身边的家人。"
+                    Margin="10"
+                    TextWrapping="Wrap"
+                    Height="90"/>
+            </StackPanel>
+        </StackPanel>
+    </local:MyCard>
+</StackPanel>
