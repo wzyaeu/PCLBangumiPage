@@ -13,7 +13,7 @@ def anime_rank_build():
     t = gett('anime_rank')
     for p in range(pages):
         print(f'anime_rank - 获取页面 {p+1}')
-        data = requests.get(f'https://api.bgm.tv/v0/subjects?type=2&sort=rank&limit={limit}&offset={p+1}', headers=HEADER)
+        data = requests.get(f'https://api.bgm.tv/v0/subjects?type=2&sort=rank&limit={limit}&offset={(limit*p)}', headers=HEADER)
         if data.status_code != 200:
             print(f'anime_rank - 无法获取页面api数据 ({data.status_code})')
             exit()
