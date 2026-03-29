@@ -1,0 +1,13 @@
+<local:MyCard Margin="5"
+              Width="150">
+    <local:MyIconTextButton
+        Margin="2"
+        Height="35"
+        VerticalAlignment="Center"
+        Text="下一页"
+        ColorType="Highlight"
+        EventType="打开帮助"
+        EventData="https://pbp.kaphia.qzz.io/anime_rank_{{num}}.json"
+        LogoScale="1"
+        Logo="M633.361447 510.516239 253.723194 890.25682 320.748276 957.179574 767.411612 510.516239 320.748276 63.852903 253.723194 130.775657Z"/>
+</local:MyCard>

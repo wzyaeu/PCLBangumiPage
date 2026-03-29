@@ -36,5 +36,8 @@
                        Text="动漫排行榜"/>
         </local:MyCard>
         {{rank}}
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="center">
+            {{pagebtn}}
+        </StackPanel>
     </StackPanel>
 </StackPanel>
