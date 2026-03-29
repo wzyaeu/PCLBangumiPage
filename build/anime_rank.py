@@ -1,4 +1,4 @@
-from tool import gett, savef, y
+from tool import gett, savef, y, HEADER
 from .anime_rank_rank import anime_rank_rank_get
 import json
 import requests
@@ -11,9 +11,7 @@ def anime_rank_build():
     ,ensure_ascii=False))
 
     print(f'anime_rank - 获取页面内容')
-    data = requests.get('https://api.bgm.tv/v0/subjects?type=2&sort=rank', headers={
-        'user-agent': 'wzyaeu/PclBangumiPage'
-    })
+    data = requests.get('https://api.bgm.tv/v0/subjects?type=2&sort=rank', headers=HEADER)
     if data.status_code != 200:
         print(f'anime_rank - 无法获取api数据 ({data.status_code})')
         exit()

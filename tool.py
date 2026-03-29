@@ -7,6 +7,10 @@ START_TIME = int(time.time()*1000)
 with open('.version','r',encoding='utf-8') as f:
     VERSION = f.read()
 
+HEADER = {
+    'user-agent': 'wzyaeu/PclBangumiPage'
+}
+
 ht = {}
 
 def gett(tn: str) -> str:
