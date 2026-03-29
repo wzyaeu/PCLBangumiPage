@@ -34,14 +34,14 @@
                     <ColumnDefinition Width="2*"/>
                 </Grid.ColumnDefinitions>
                 <local:MyImage
-                    Source="https://lain.bgm.tv/r/800/pic/cover/l/b6/ab/223445_Ofs85.jpg"
+                    Source="https://lain.bgm.tv/r/800/pic/cover/l/3d/6a/165878_V42S3.jpg"
                     Grid.Column="0"/>
                 <StackPanel Grid.Column="1"
                             Margin="5">
                     <TextBlock
                         FontSize="25"
-                        Text="OPUS 作品 / OPUS"
-                        ToolTip="OPUS 作品 / OPUS"
+                        Text="伊苏II 失落的伊苏古国 终章 / イースII"
+                        ToolTip="伊苏II 失落的伊苏古国 终章 / イースII"
                         FontWeight="Bold"
                         Foreground="{DynamicResource ColorBrush3}"
                         Margin="5"/>
@@ -52,7 +52,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="20"
-                                Text="Score 7.6"
+                                Text="Score 7.3"
                                 Foreground="#ffffff"
                                 Margin="8,8,0,0"/>
                             <Grid Margin="10"
@@ -90,7 +90,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="1">
                                     <Border
-                                        Height="7"
+                                        Height="6"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -106,7 +106,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="2">
                                     <Border
-                                        Height="20"
+                                        Height="10"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -122,7 +122,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="3">
                                     <Border
-                                        Height="14"
+                                        Height="24"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -138,7 +138,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="4">
                                     <Border
-                                        Height="6"
+                                        Height="8"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -154,7 +154,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="5">
                                     <Border
-                                        Height="1"
+                                        Height="0"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -170,7 +170,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="6">
                                     <Border
-                                        Height="0"
+                                        Height="2"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -241,7 +241,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="20"
-                                Text="Rank 1956"
+                                Text="Rank 2484"
                                 Foreground="#ffffff"
                                 Margin="8"/>
                         </StackPanel>
@@ -254,7 +254,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="18"
-                                Text="放送开始 2010-12-13"
+                                Text="放送开始 1988-04-22"
                                 Foreground="#92dcff"
                                 Margin="10"/>
                         </StackPanel>
@@ -262,7 +262,7 @@
                     <local:MyTextButton 
                                 Margin="4,5,0,0" Text="查看Bangumi"
                         EventType="打开网页"
-                        EventData="https://bgm.tv/subject/223445"/>
+                        EventData="https://bgm.tv/subject/165878"/>
                 </StackPanel>
             </Grid>
             <Line X1="0"
@@ -275,7 +275,7 @@
             <StackPanel>
                 <TextBlock
                     FontSize="13"
-                    Text="学习研究社的半月刊杂志《コミックガイズ》1995年第10号 - 1996年第6号连载。之后在该杂志的1996年第7号停载。当时作品尚未完成，亦未发行单行本。在2010年12月13日由德间书店发行单行本，里面收录被发现的未完成原稿“未发表的最终话”。"
+                    Text="『イースII』（イースツー、Ys II）とは、日本ファルコムのアクションロールプレイングゲーム (ARPG)、〈イースシリーズ〉の第2作目。前作『イース (I)』とは密接に繋がっており、後編にあたる。"
                     Margin="10"
                     TextWrapping="Wrap"
                     Height="90"/>
