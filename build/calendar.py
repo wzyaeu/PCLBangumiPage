@@ -3,6 +3,8 @@ from .calendar_week import calendar_week_get
 
 import json
 import re
+from datetime import datetime
+from zoneinfo import ZoneInfo
 
 def calendar_build(json_data):
     print(f'calendar - 获取页面内容')
@@ -14,10 +16,17 @@ def calendar_build(json_data):
     savef('Custom.xaml.ini',str(START_TIME))
 
     s = gett('calendar/_style')
+
+    now = datetime.now(ZoneInfo("Asia/Shanghai"))
+    year = now.year
+    month = now.month
+    day = now.day
+
     savef(
         'Custom.xaml',
         y(gett('calendar-today')\
         .replace('{{style}}',s)\
+        .replace('{{title-date}}',f'{year}/{month}/{day}')\
         .replace('{{week}}',calendar_week_get(json_data, homepage=True)))
     )
     savef('calendar_all.json',json.dumps(
