@@ -34,14 +34,14 @@
                     <ColumnDefinition Width="2*"/>
                 </Grid.ColumnDefinitions>
                 <local:MyImage
-                    Source="https://lain.bgm.tv/r/800/pic/cover/l/6c/1d/1368_pWACi.jpg"
+                    Source="https://lain.bgm.tv/r/800/pic/cover/l/fb/cd/51158_55lcl.jpg"
                     Grid.Column="0"/>
                 <StackPanel Grid.Column="1"
                             Margin="5">
                     <TextBlock
                         FontSize="25"
-                        Text="父女七日变 / パパとムスメの7日間"
-                        ToolTip="父女七日变 / パパとムスメの7日間"
+                        Text="堀与宫村 / ホリミヤ"
+                        ToolTip="堀与宫村 / ホリミヤ"
                         FontWeight="Bold"
                         Foreground="{DynamicResource ColorBrush3}"
                         Margin="5"/>
@@ -74,7 +74,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="0">
                                     <Border
-                                        Height="2"
+                                        Height="3"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -90,7 +90,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="1">
                                     <Border
-                                        Height="3"
+                                        Height="5"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -106,7 +106,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="2">
                                     <Border
-                                        Height="24"
+                                        Height="21"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -138,7 +138,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="4">
                                     <Border
-                                        Height="4"
+                                        Height="5"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -154,7 +154,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="5">
                                     <Border
-                                        Height="0"
+                                        Height="1"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -241,7 +241,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="20"
-                                Text="Rank 702"
+                                Text="Rank 1936"
                                 Foreground="#ffffff"
                                 Margin="8"/>
                         </StackPanel>
@@ -254,7 +254,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="18"
-                                Text="放送开始 2007-07-01"
+                                Text="放送开始 2012-03-27"
                                 Foreground="#92dcff"
                                 Margin="10"/>
                         </StackPanel>
@@ -262,7 +262,7 @@
                     <local:MyTextButton 
                                 Margin="4,5,0,0" Text="查看Bangumi"
                         EventType="打开网页"
-                        EventData="https://bgm.tv/subject/1368"/>
+                        EventData="https://bgm.tv/subject/51158"/>
                 </StackPanel>
             </Grid>
             <Line X1="0"
@@ -275,9 +275,7 @@
             <StackPanel>
                 <TextBlock
                     FontSize="13"
-                    Text="一次父女同乘的电车遭遇事故，机缘巧合下小梅(16)与其父恭一郎(47)突然身份互换。恭一郎满口当今女生的流行语，而小梅则张嘴就是大叔腔。
-
-两人互换了身份后，父亲变身成为女生开始了高中生活，不得不应付男朋友的约会，而小梅则要以父亲的身份到公司工作，当中发生了不小趣事。因为剧中二人感情不甚好，缺少沟通，表现出当代社会的家庭问题，制作人希望这部作品在带来欢乐的同时，能引人反思，关注身边的家人。"
+                    Text="乍看前卫其实是超朴素的家庭型女生——堀 京子。戴着超土眼镜其实是扎满耳洞的美型潮男——宫村 伊澄。看似完全相反，却又相似的两人偶然间相遇了…！？甜蜜到让你胸口一紧的超微炭酸系校园生活！"
                     Margin="10"
                     TextWrapping="Wrap"
                     Height="90"/>
