@@ -1,10 +1,11 @@
 from tool import gett
 from .calendar_week_day import calendar_week_day_get
 
-import datetime
+from datetime import datetime
+from zoneinfo import ZoneInfo
 
 def calendar_week_get(json_data, homepage = False):
-    wd = datetime.datetime.today().weekday()
+    wd = datetime.now(ZoneInfo("Asia/Shanghai")).weekday()
     print(f'calendar_week - 获取本周推荐番剧内容')
     print(homepage)
     if not homepage:
