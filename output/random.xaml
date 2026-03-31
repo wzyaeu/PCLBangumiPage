@@ -34,14 +34,14 @@
                     <ColumnDefinition Width="2*"/>
                 </Grid.ColumnDefinitions>
                 <local:MyImage
-                    Source="https://lain.bgm.tv/r/800/pic/cover/l/31/91/20529_8CNZ8.jpg"
+                    Source="https://lain.bgm.tv/r/800/pic/cover/l/6e/31/2897_3l433.jpg"
                     Grid.Column="0"/>
                 <StackPanel Grid.Column="1"
                             Margin="5">
                     <TextBlock
                         FontSize="25"
-                        Text="怪医美女RAY / RAY THE ANIMATION"
-                        ToolTip="怪医美女RAY / RAY THE ANIMATION"
+                        Text="×××HOLiC 仲夏夜之梦 / 劇場版×××HOLiC 真夏ノ夜ノ夢"
+                        ToolTip="×××HOLiC 仲夏夜之梦 / 劇場版×××HOLiC 真夏ノ夜ノ夢"
                         FontWeight="Bold"
                         Foreground="{DynamicResource ColorBrush3}"
                         Margin="5"/>
@@ -52,7 +52,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="20"
-                                Text="Score 6.1"
+                                Text="Score 7.6"
                                 Foreground="#ffffff"
                                 Margin="8,8,0,0"/>
                             <Grid Margin="10"
@@ -74,7 +74,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="0">
                                     <Border
-                                        Height="0"
+                                        Height="2"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -90,7 +90,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="1">
                                     <Border
-                                        Height="0"
+                                        Height="4"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -106,7 +106,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="2">
                                     <Border
-                                        Height="5"
+                                        Height="20"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -122,7 +122,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="3">
                                     <Border
-                                        Height="11"
+                                        Height="18"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -138,7 +138,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="4">
                                     <Border
-                                        Height="24"
+                                        Height="4"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -154,7 +154,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="5">
                                     <Border
-                                        Height="6"
+                                        Height="0"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -170,7 +170,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="6">
                                     <Border
-                                        Height="3"
+                                        Height="0"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -186,7 +186,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="7">
                                     <Border
-                                        Height="1"
+                                        Height="0"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -241,7 +241,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="20"
-                                Text="Rank 5730"
+                                Text="Rank 692"
                                 Foreground="#ffffff"
                                 Margin="8"/>
                         </StackPanel>
@@ -254,7 +254,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="18"
-                                Text="放送开始 2006-04-06"
+                                Text="放送开始 2005-08-20"
                                 Foreground="#92dcff"
                                 Margin="10"/>
                         </StackPanel>
@@ -262,7 +262,7 @@
                     <local:MyTextButton 
                                 Margin="4,5,0,0" Text="查看Bangumi"
                         EventType="打开网页"
-                        EventData="https://bgm.tv/subject/20529"/>
+                        EventData="https://bgm.tv/subject/2897"/>
                 </StackPanel>
             </Grid>
             <Line X1="0"
@@ -275,10 +275,15 @@
             <StackPanel>
                 <TextBlock
                     FontSize="13"
-                    Text="讲述了拥有高超医术的美女秘医零在很小的时候眼睛被器官贩卖组织（一直在大量收養年幼兒童，等兒童成長到一定年齡，再將其器官賣給需要動移植手術的買主的某個非法集团）卖掉了一只眼睛，失去一只眼睛的她，被一个自称为B.J.（BLACK JACK）的医生救回来了，并且B·J还给她移植了可以看到所有物质内部的眼睛。10年时间内，零掌握了大量的外科手术技巧，为了夺回自己的眼睛，她开始走上寻找自己被夺走的眼睛之路，向组织一步步逼近。
-
-
-《怪医美女RAY》是吉富昭仁所作漫画作品，这部动画就是依据漫画改编的。此作品中的出现的角色B.J.，就是手冢治虫作品里的怪医黑杰克。"
+                    Text="本片是从侑子收到来路不明的信开始讲起，那是一封召开拍卖会的邀请函。
+在古老的邸宅里被招待的是7个狂热的收藏家。
+据说他们都是为了完善自己的收藏而应邸宅主人的邀请来到这里的。
+可是，等了很久都不见主人现身。
+不久，收藏家一个接一个的离奇消失了…
+充满神秘的馆主，不可思议的少女。一夜里接连发生了很多奇异的事情。
+要拍卖的到底是什么呢？究竟招待的主人是谁呢？
+执着于将物品据为己有的狡猾而愚蠢的姿态以及住在馆里的主人超越时间的思念。
+云雾缭绕的谜团的结果，以及悲惨的恋爱故事的结尾…"
                     Margin="10"
                     TextWrapping="Wrap"
                     Height="90"/>
