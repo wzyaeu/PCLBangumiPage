@@ -34,14 +34,14 @@
                     <ColumnDefinition Width="2*"/>
                 </Grid.ColumnDefinitions>
                 <local:MyImage
-                    Source="https://lain.bgm.tv/r/800/pic/cover/l/fd/58/47147_qpAPh.jpg"
+                    Source="https://lain.bgm.tv/r/800/pic/cover/l/2f/40/8546_gBpmI.jpg"
                     Grid.Column="0"/>
                 <StackPanel Grid.Column="1"
                             Margin="5">
                     <TextBlock
                         FontSize="25"
-                        Text="麦兜当当伴我心 / 麥兜噹噹伴我心"
-                        ToolTip="麦兜当当伴我心 / 麥兜噹噹伴我心"
+                        Text="更多 出包王女 / もっとTo LOVEる -とらぶる-"
+                        ToolTip="更多 出包王女 / もっとTo LOVEる -とらぶる-"
                         FontWeight="Bold"
                         Foreground="{DynamicResource ColorBrush3}"
                         Margin="5"/>
@@ -52,7 +52,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="20"
-                                Text="Score 7.1"
+                                Text="Score 7.2"
                                 Foreground="#ffffff"
                                 Margin="8,8,0,0"/>
                             <Grid Margin="10"
@@ -106,7 +106,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="2">
                                     <Border
-                                        Height="13"
+                                        Height="14"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -122,7 +122,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="3">
                                     <Border
-                                        Height="21"
+                                        Height="22"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -138,7 +138,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="4">
                                     <Border
-                                        Height="9"
+                                        Height="8"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -154,7 +154,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="5">
                                     <Border
-                                        Height="2"
+                                        Height="1"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -241,7 +241,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="20"
-                                Text="Rank 2286"
+                                Text="Rank 1736"
                                 Foreground="#ffffff"
                                 Margin="8"/>
                         </StackPanel>
@@ -254,7 +254,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="18"
-                                Text="放送开始 2012-07-10"
+                                Text="放送开始 2010-10-05"
                                 Foreground="#92dcff"
                                 Margin="10"/>
                         </StackPanel>
@@ -262,7 +262,7 @@
                     <local:MyTextButton 
                                 Margin="4,5,0,0" Text="查看Bangumi"
                         EventType="打开网页"
-                        EventData="https://bgm.tv/subject/47147"/>
+                        EventData="https://bgm.tv/subject/8546"/>
                 </StackPanel>
             </Grid>
             <Line X1="0"
@@ -275,9 +275,10 @@
             <StackPanel>
                 <TextBlock
                     FontSize="13"
-                    Text="       在华仔的巨星演唱会上，麦兜与他的伙伴们齐声高歌，硬邦邦的城市在华美耀眼的灯光剧照下渐渐融化……
-　　时光倒转， 春田花花幼儿园因不堪沉重的经济压力而被迫组建了“春田花花合唱团”，那个傻里傻气又活在梦中的校长率领着一群初出茅庐的小朋友，开始了一段磕磕绊绊的音乐之旅。
-　　他们唱过没有人的商场，录过一夜爆红的广告金曲，遇到过骗钱跑路的胶牌经理人，甚至还受邀在葬礼上献歌一曲……鲜花、掌声、坚持、泪水，直到校长重新遇见了年轻时的自己，直到春天花花幼儿园被改建成了豪宅，直到岁月的痕迹慢慢爬上额头……当校长的头发日渐稀疏，当那颗咬了一个学期的糖炒栗子终于有了裂缝，每个人心中都泛起了一种叫“感动”的情绪……笑容从山那边落下，明天还会升起吗？"
+                    Text="《更多 出包王女》是《出包王女》的续篇，从菈菈住进结城家以来，梨斗的生活有了很大的变化。现在的结城家，除了梨斗、美柑两兄妹，菈菈和她的两个妹妹“娜娜·阿丝达·戴比路克”与“梦梦·贝莉雅·戴比路克”也寄住在结城家。
+和菈菈一样爱上梨斗的梦梦，目睹到本篇最终话，梨斗试着向春菜告白，却变成向复数女性告白的混乱场面。在听过菈菈的想法后，梦梦开始思考能让自己、菈菈和春菜等喜欢梨斗的女孩们能全体同时获得幸福的方法，得到的结论就是让梨斗建立后宫的“乐园（后宫）计划”。以自己梦想中的未来为目标，梦梦积极的展开各种行动。
+另一方面，目标是梨斗性命、来自宇宙的顶尖杀手“金色暗影”（小暗），与梨斗和菈菈等人邂逅后，在地球过着平稳的生活。但小暗的面前，出现一位自称“黑咲芽亚”的少女，芽亚和她主人的目标是让小暗变回冷酷杀手的“DARKNESS计划”。
+围绕着梦梦推动的“乐园（后宫）计划”和目标是小暗的“DARKNESS计划”，梨斗原本就状况不断的生活陷入了更多艳福与危机。"
                     Margin="10"
                     TextWrapping="Wrap"
                     Height="90"/>
