@@ -11,12 +11,25 @@
                            Foreground="{DynamicResource ColorBrush7}"
                            Text="PCL Bangumi Page"/>
             </Border>
-            <TextBlock Margin="10,3,3,3"
-                       FontWeight="Bold"
-                       FontSize="16"
-                       VerticalAlignment="Center"
-                       Foreground="{DynamicResource ColorBrush3}"
-                       Text="动漫排行榜"/>
+            <Grid Margin="5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock FontSize="17"
+                           FontWeight="Bold"
+                           Foreground="{DynamicResource ColorBrush3}"
+                           Text="动漫排行榜 {{p}} / {{a}}"/>
+                <Line X1="0"
+                      Grid.Column="1"
+                      Y1="0"
+                      X2="1000"
+                      Y2="0"
+                      StrokeThickness="2"
+                      VerticalAlignment="Center"
+                      Stroke="{DynamicResource ColorBrush3}"
+                      Margin="10,0"/>
+            </Grid>
             <local:MyIconTextButton Margin="2"
                                     Height="35"
                                     VerticalAlignment="Center"
@@ -36,7 +49,8 @@
                        Text="动漫排行榜"/>
         </local:MyCard>
         {{rank}}
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="center">
+        <StackPanel Orientation="Horizontal"
+                HorizontalAlignment="center">
             {{pagebtn}}
         </StackPanel>
     </StackPanel>

@@ -49,6 +49,8 @@ def anime_rank_build():
         savef(f'anime_rank_{p+1}.xaml',
             y(t\
             .replace('{{style}}',gett('anime_rank/_style'))\
+            .replace('{{p}}',str(p+1))\
+            .replace('{{a}}',str(pages))\
             .replace('{{rank}}',anime_rank_rank_get(json_data, p*limit))\
             .replace('{{pagebtn}}',pagebtn))
         )
