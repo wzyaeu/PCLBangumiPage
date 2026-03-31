@@ -34,14 +34,14 @@
                     <ColumnDefinition Width="2*"/>
                 </Grid.ColumnDefinitions>
                 <local:MyImage
-                    Source="https://lain.bgm.tv/r/800/pic/cover/l/2f/40/8546_gBpmI.jpg"
+                    Source="https://lain.bgm.tv/r/800/pic/cover/l/cd/3b/3755_eEt2f.jpg"
                     Grid.Column="0"/>
                 <StackPanel Grid.Column="1"
                             Margin="5">
                     <TextBlock
                         FontSize="25"
-                        Text="更多 出包王女 / もっとTo LOVEる -とらぶる-"
-                        ToolTip="更多 出包王女 / もっとTo LOVEる -とらぶる-"
+                        Text="西蒙 / シムーン"
+                        ToolTip="西蒙 / シムーン"
                         FontWeight="Bold"
                         Foreground="{DynamicResource ColorBrush3}"
                         Margin="5"/>
@@ -52,7 +52,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="20"
-                                Text="Score 7.2"
+                                Text="Score 7.6"
                                 Foreground="#ffffff"
                                 Margin="8,8,0,0"/>
                             <Grid Margin="10"
@@ -74,7 +74,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="0">
                                     <Border
-                                        Height="2"
+                                        Height="3"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -90,7 +90,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="1">
                                     <Border
-                                        Height="2"
+                                        Height="7"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -106,7 +106,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="2">
                                     <Border
-                                        Height="14"
+                                        Height="17"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -122,7 +122,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="3">
                                     <Border
-                                        Height="22"
+                                        Height="15"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -138,7 +138,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="4">
                                     <Border
-                                        Height="8"
+                                        Height="6"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -241,7 +241,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="20"
-                                Text="Rank 1736"
+                                Text="Rank 788"
                                 Foreground="#ffffff"
                                 Margin="8"/>
                         </StackPanel>
@@ -254,7 +254,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="18"
-                                Text="放送开始 2010-10-05"
+                                Text="放送开始 2006-04-03"
                                 Foreground="#92dcff"
                                 Margin="10"/>
                         </StackPanel>
@@ -262,7 +262,7 @@
                     <local:MyTextButton 
                                 Margin="4,5,0,0" Text="查看Bangumi"
                         EventType="打开网页"
-                        EventData="https://bgm.tv/subject/8546"/>
+                        EventData="https://bgm.tv/subject/3755"/>
                 </StackPanel>
             </Grid>
             <Line X1="0"
@@ -275,10 +275,9 @@
             <StackPanel>
                 <TextBlock
                     FontSize="13"
-                    Text="《更多 出包王女》是《出包王女》的续篇，从菈菈住进结城家以来，梨斗的生活有了很大的变化。现在的结城家，除了梨斗、美柑两兄妹，菈菈和她的两个妹妹“娜娜·阿丝达·戴比路克”与“梦梦·贝莉雅·戴比路克”也寄住在结城家。
-和菈菈一样爱上梨斗的梦梦，目睹到本篇最终话，梨斗试着向春菜告白，却变成向复数女性告白的混乱场面。在听过菈菈的想法后，梦梦开始思考能让自己、菈菈和春菜等喜欢梨斗的女孩们能全体同时获得幸福的方法，得到的结论就是让梨斗建立后宫的“乐园（后宫）计划”。以自己梦想中的未来为目标，梦梦积极的展开各种行动。
-另一方面，目标是梨斗性命、来自宇宙的顶尖杀手“金色暗影”（小暗），与梨斗和菈菈等人邂逅后，在地球过着平稳的生活。但小暗的面前，出现一位自称“黑咲芽亚”的少女，芽亚和她主人的目标是让小暗变回冷酷杀手的“DARKNESS计划”。
-围绕着梦梦推动的“乐园（后宫）计划”和目标是小暗的“DARKNESS计划”，梨斗原本就状况不断的生活陷入了更多艳福与危机。"
+                    Text="　　舞台设定在了地球以外的其他星球。人们把自己所在的星球称为“大空陆”。在那里，人类一出生就必须以“女性”的身份生活。等到17岁的时候到“泉”那里，选择性别而成为大人的时刻。
+　　为了夺取主人公等所在的宫国所持有的珍贵引擎，邻国开始了日益激烈的侵略。为了迎击敌国，宫国被迫将仪式用复座式飞行艇“Simoun”改造成了战斗用战舰。还需要未性别化的“巫女”被派遣担任驾驶员，于是，她们成为了被称为“coru”的战斗小队成员。
+　　操纵“Simoun”的少数少女被称为了“Simoun·シヴュラ（西贝拉）”因为拥有着特殊能力，她们可以选择自己成为大人的时间。但是因为战争的爆发，她们的优秀才能不得不运用在“Simoun”的操作上，换句话说，她们被强迫保持在了“少女阶段”……"
                     Margin="10"
                     TextWrapping="Wrap"
                     Height="90"/>
