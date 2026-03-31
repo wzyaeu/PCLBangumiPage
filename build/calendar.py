@@ -1,4 +1,4 @@
-from tool import gett, savef, START_TIME, y
+from tool import gett, savef, y, BUILD_VERSION
 from .calendar_week import calendar_week_get
 
 import json
@@ -13,7 +13,7 @@ def calendar_build(json_data):
             "Title": "PCL Bangumi 每日放送"
         }
     ,ensure_ascii=False))
-    savef('Custom.xaml.ini',str(START_TIME))
+    savef('Custom.xaml.ini',BUILD_VERSION)
 
     s = gett('calendar/_style')
 
