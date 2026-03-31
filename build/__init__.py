@@ -3,6 +3,7 @@ from .anime_rank import anime_rank_build
 from .about import about_build
 from .html import html_build
 from .random import random_build
+from tool import savef, BUILD_VERSION
 
 import requests
 import json
@@ -19,3 +20,4 @@ def build():
     random_build()
     about_build()
     html_build()
+    savef('.build_version',f'当前构建版本 {BUILD_VERSION}')

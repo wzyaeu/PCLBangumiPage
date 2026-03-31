@@ -1,4 +1,4 @@
-from tool import gett, savef, START_TIME, VERSION, y
+from tool import gett, savef, BUILD_VERSION, VERSION, y
 
 import json
 
@@ -11,5 +11,5 @@ def about_build():
     ,ensure_ascii=False))
     savef('about.xaml',y(gett('about')\
         .replace('{{version}}',VERSION)\
-        .replace('{{gid}}',str(START_TIME)))
+        .replace('{{gv}}',BUILD_VERSION))
     )

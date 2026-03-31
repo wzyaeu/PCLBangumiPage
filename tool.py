@@ -2,10 +2,12 @@ import os
 import time
 import shutil
 import re
+import secrets
+import math
 
-START_TIME = int(time.time()*1000)
 with open('.version','r',encoding='utf-8') as f:
     VERSION = f.read()
+BUILD_VERSION = secrets.token_hex(4)
 
 HEADER = {
     'user-agent': 'wzyaeu/PclBangumiPage'
