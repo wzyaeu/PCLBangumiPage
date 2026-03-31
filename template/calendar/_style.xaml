@@ -1,19 +1,4 @@
 <StackPanel.Resources>
-    <Style x:Key="DayTitle"
-            TargetType="TextBlock">
-        <Setter Property="Margin"
-                Value="8"/>
-        <Setter Property="FontWeight"
-                Value="Bold"/>
-        <Setter Property="FontSize"
-                Value="18"/>
-        <Setter Property="Margin"
-                Value="8"/>
-        <Setter Property="VerticalAlignment"
-                Value="Center"/>
-        <Setter Property="Foreground"
-                Value="{DynamicResource ColorBrush3}"/>
-    </Style>
     <Style x:Key="DayCardStyle"
             TargetType="local:MyCard">
         <Setter Property="Margin"
