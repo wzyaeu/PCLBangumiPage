@@ -24,9 +24,18 @@ def gett(tn: str) -> str:
             ht[tn] = f.read()
             return ht[tn]
 
-def savef(n, d):
+def gettb(tn: str) -> bytes:
+    with open(os.path.join(os.path.dirname(__file__),'template',tn), 'rb') as f:
+        return f.read()
+
+def savef(n, d: str):
     os.makedirs(os.path.dirname(os.path.join(os.path.dirname(__file__),'output',n)), exist_ok=True)
     with open(os.path.join(os.path.dirname(__file__),'output',n), 'w', encoding='utf-8') as f:
+        f.write(d)
+
+def savefb(n, d: bytes):
+    os.makedirs(os.path.dirname(os.path.join(os.path.dirname(__file__),'output',n)), exist_ok=True)
+    with open(os.path.join(os.path.dirname(__file__),'output',n), 'wb') as f:
         f.write(d)
 
 def copy_overwrite(src_dir: str, dst_dir: str):

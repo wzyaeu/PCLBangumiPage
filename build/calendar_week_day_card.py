@@ -43,16 +43,15 @@ def calendar_week_day_card_get(json_data, i):
 
         if 'name_cn' in item:
             itemt = itemt\
-                .replace('{{name-cn}}',item['name'])\
-                .replace('{{name}}',item['name'])\
-                .replace('{{pic}}',item['images']['common'])\
-                .replace('{{link}}',item['url'])
+                .replace('{{name-cn}}',item['name_cn'])
         else:
             itemt = itemt\
-                .replace('{{name-cn}}',item['name_cn'])\
-                .replace('{{name}}',item['name'])\
-                .replace('{{pic}}',item['images']['common'])\
-                .replace('{{link}}',item['url'])
+                .replace('{{name-cn}}',item['name'])
+        
+        itemt = itemt\
+            .replace('{{name}}',item['name'])\
+            .replace('{{pic}}',item.get('images',{'common':'https://pbp.kaphia.qzz.io/images/image_placeholder_1_1.png'})['common'])\
+            .replace('{{link}}',item['url'])
 
         output += itemt
 
