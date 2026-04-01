@@ -34,14 +34,14 @@
                     <ColumnDefinition Width="2*"/>
                 </Grid.ColumnDefinitions>
                 <local:MyImage
-                    Source="https://lain.bgm.tv/r/800/pic/cover/l/cd/3b/3755_eEt2f.jpg"
+                    Source="https://lain.bgm.tv/r/800/pic/cover/l/37/5a/98371_zdWKw.jpg"
                     Grid.Column="0"/>
                 <StackPanel Grid.Column="1"
                             Margin="5">
                     <TextBlock
                         FontSize="25"
-                        Text="西蒙 / シムーン"
-                        ToolTip="西蒙 / シムーン"
+                        Text="某科学的超电磁炮 OVA / とある科学の超電磁砲 炎天下の撮影モデルも楽じゃありませんわね"
+                        ToolTip="某科学的超电磁炮 OVA / とある科学の超電磁砲 炎天下の撮影モデルも楽じゃありませんわね"
                         FontWeight="Bold"
                         Foreground="{DynamicResource ColorBrush3}"
                         Margin="5"/>
@@ -52,7 +52,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="20"
-                                Text="Score 7.6"
+                                Text="Score 7.2"
                                 Foreground="#ffffff"
                                 Margin="8,8,0,0"/>
                             <Grid Margin="10"
@@ -74,7 +74,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="0">
                                     <Border
-                                        Height="3"
+                                        Height="1"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -90,7 +90,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="1">
                                     <Border
-                                        Height="7"
+                                        Height="2"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -106,7 +106,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="2">
                                     <Border
-                                        Height="17"
+                                        Height="14"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -122,7 +122,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="3">
                                     <Border
-                                        Height="15"
+                                        Height="23"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -138,7 +138,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="4">
                                     <Border
-                                        Height="6"
+                                        Height="8"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -241,7 +241,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="20"
-                                Text="Rank 788"
+                                Text="Rank 1809"
                                 Foreground="#ffffff"
                                 Margin="8"/>
                         </StackPanel>
@@ -254,7 +254,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="18"
-                                Text="放送开始 2006-04-03"
+                                Text="放送开始 2010-10-29"
                                 Foreground="#92dcff"
                                 Margin="10"/>
                         </StackPanel>
@@ -262,7 +262,7 @@
                     <local:MyTextButton 
                                 Margin="4,5,0,0" Text="查看Bangumi"
                         EventType="打开网页"
-                        EventData="https://bgm.tv/subject/3755"/>
+                        EventData="https://bgm.tv/subject/98371"/>
                 </StackPanel>
             </Grid>
             <Line X1="0"
@@ -275,9 +275,7 @@
             <StackPanel>
                 <TextBlock
                     FontSize="13"
-                    Text="　　舞台设定在了地球以外的其他星球。人们把自己所在的星球称为“大空陆”。在那里，人类一出生就必须以“女性”的身份生活。等到17岁的时候到“泉”那里，选择性别而成为大人的时刻。
-　　为了夺取主人公等所在的宫国所持有的珍贵引擎，邻国开始了日益激烈的侵略。为了迎击敌国，宫国被迫将仪式用复座式飞行艇“Simoun”改造成了战斗用战舰。还需要未性别化的“巫女”被派遣担任驾驶员，于是，她们成为了被称为“coru”的战斗小队成员。
-　　操纵“Simoun”的少数少女被称为了“Simoun·シヴュラ（西贝拉）”因为拥有着特殊能力，她们可以选择自己成为大人的时间。但是因为战争的爆发，她们的优秀才能不得不运用在“Simoun”的操作上，换句话说，她们被强迫保持在了“少女阶段”……"
+                    Text="由镰池和马撰写的轻小说《魔法禁书目录》作为电击文库最畅销的作品不仅公布了动画第二期的消息，其由冬川基连载的漫画外传作品《某科学的超电磁炮》由于炮姐的高人气其受欢迎程度也一点不亚于本篇作品。传出在7月24日发售的《某科学的超电磁炮OFFICIAL VISUAL BOOK》中将附赠一话OVA《第13話 – 炎天下の撮影モデルも楽じゃありませんわね。》当作DVD的特典。如今，在炮姐漫画的第5卷上又公布了《某科学的电磁炮》在10月29日即将发售OVA的消息。"
                     Margin="10"
                     TextWrapping="Wrap"
                     Height="90"/>
