@@ -37,7 +37,7 @@ def random_build():
     ,ensure_ascii=False))
     savef('random.xaml',t\
         .replace('{{pic}}', data['images']['medium'])\
-        .replace('{{name-cn}}', data.get('name_cn',data['name']))\
+        .replace('{{name-cn}}', data['name_cn'] if data['name_cn'] != '' else data['name'])\
         .replace('{{name}}', data['name'])\
         .replace('{{score}}', str(data['rating']['score']))\
         .replace('{{score-1}}', s(data, 1))\
