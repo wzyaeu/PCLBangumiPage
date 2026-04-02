@@ -34,14 +34,14 @@
                     <ColumnDefinition Width="2*"/>
                 </Grid.ColumnDefinitions>
                 <local:MyImage
-                    Source="https://lain.bgm.tv/r/800/pic/cover/l/37/5a/98371_zdWKw.jpg"
+                    Source="https://lain.bgm.tv/r/800/pic/cover/l/09/0a/130364_43Ky4.jpg"
                     Grid.Column="0"/>
                 <StackPanel Grid.Column="1"
                             Margin="5">
                     <TextBlock
                         FontSize="25"
-                        Text="某科学的超电磁炮 OVA / とある科学の超電磁砲 炎天下の撮影モデルも楽じゃありませんわね"
-                        ToolTip="某科学的超电磁炮 OVA / とある科学の超電磁砲 炎天下の撮影モデルも楽じゃありませんわね"
+                        Text="勇者大冒险 / 勇者大冒险"
+                        ToolTip="勇者大冒险 / 勇者大冒险"
                         FontWeight="Bold"
                         Foreground="{DynamicResource ColorBrush3}"
                         Margin="5"/>
@@ -52,7 +52,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="20"
-                                Text="Score 7.2"
+                                Text="Score 6.5"
                                 Foreground="#ffffff"
                                 Margin="8,8,0,0"/>
                             <Grid Margin="10"
@@ -90,7 +90,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="1">
                                     <Border
-                                        Height="2"
+                                        Height="0"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -106,7 +106,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="2">
                                     <Border
-                                        Height="14"
+                                        Height="6"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -122,7 +122,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="3">
                                     <Border
-                                        Height="23"
+                                        Height="19"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -138,7 +138,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="4">
                                     <Border
-                                        Height="8"
+                                        Height="16"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -154,7 +154,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="5">
                                     <Border
-                                        Height="1"
+                                        Height="5"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -170,7 +170,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="6">
                                     <Border
-                                        Height="0"
+                                        Height="1"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -241,7 +241,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="20"
-                                Text="Rank 1809"
+                                Text="Rank 4549"
                                 Foreground="#ffffff"
                                 Margin="8"/>
                         </StackPanel>
@@ -254,7 +254,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="18"
-                                Text="放送开始 2010-10-29"
+                                Text="放送开始 2015-03-31"
                                 Foreground="#92dcff"
                                 Margin="10"/>
                         </StackPanel>
@@ -262,7 +262,7 @@
                     <local:MyTextButton 
                                 Margin="4,5,0,0" Text="查看Bangumi"
                         EventType="打开网页"
-                        EventData="https://bgm.tv/subject/98371"/>
+                        EventData="https://bgm.tv/subject/130364"/>
                 </StackPanel>
             </Grid>
             <Line X1="0"
@@ -275,7 +275,9 @@
             <StackPanel>
                 <TextBlock
                     FontSize="13"
-                    Text="由镰池和马撰写的轻小说《魔法禁书目录》作为电击文库最畅销的作品不仅公布了动画第二期的消息，其由冬川基连载的漫画外传作品《某科学的超电磁炮》由于炮姐的高人气其受欢迎程度也一点不亚于本篇作品。传出在7月24日发售的《某科学的超电磁炮OFFICIAL VISUAL BOOK》中将附赠一话OVA《第13話 – 炎天下の撮影モデルも楽じゃありませんわね。》当作DVD的特典。如今，在炮姐漫画的第5卷上又公布了《某科学的电磁炮》在10月29日即将发售OVA的消息。"
+                    Text=" 　　埃及壁画上的直升机、史前的核反应堆、遍布全球的历史断裂带…这个世界上有无数的证据，提醒我们史前存在的高度文明。有人拼命的想还原真相，有人拼命的想掩盖痕迹。围绕着历史的断章，会展开怎样轰轰烈烈的传奇故事？ 腾讯和像素合力打造的悬疑探秘3D巨作《勇者大冒险》，2015年3月首播！
+　　《勇者大冒险》明星IP（Intellectual Property 知识产权）为腾讯首个跨领域、泛娱乐先锋产品，覆盖游戏、动漫、文学、影视等文化产业。由腾讯游戏、腾讯动漫、像素软件、南派三叔（《盗墓笔记》作者）联合打造。）
+　　南派三叔担任该IP世界观总架构师，撰写同名小说。在游戏侧推出端游、手游、电视游戏，旨在为玩家打造多端多屏互动的游戏体验。同步推出同名动画、漫画、电影作品为用户带来全方位的冒险乐趣。冒险无界，横扫一切！"
                     Margin="10"
                     TextWrapping="Wrap"
                     Height="90"/>
