@@ -42,7 +42,7 @@ def calendar_week_day_card_get(json_data, i):
             .replace('{{score-1}}','--')
 
         itemt = itemt\
-            .replace('{{name-cn}}', json_data['name_cn'] if json_data['name_cn'] != '' else json_data['name'])
+            .replace('{{name-cn}}', item['name_cn'] if item['name_cn'] != '' else item['name'])
         
         itemt = itemt\
             .replace('{{name}}',item['name'])\
