@@ -1,4 +1,4 @@
-from tool import savef
+from tool import savef, logs_add
 
 INDEX = '''<!DOCTYPE html>
 <html lang="en">
@@ -14,5 +14,6 @@ INDEX = '''<!DOCTYPE html>
 '''
 
 def html_build():
-    print('html_build - 生成中')
+    print('html - 生成中')
     savef('index.html',INDEX)
+    logs_add('html','save_file index.html','Success')

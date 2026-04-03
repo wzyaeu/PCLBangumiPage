@@ -1,4 +1,4 @@
-from tool import gett, savef, y, BUILD_VERSION
+from tool import gett, savef, y, BUILD_VERSION, logs_add
 from .calendar_week import calendar_week_get
 
 import json
@@ -13,7 +13,9 @@ def calendar_build(json_data):
             "Title": "PCL Bangumi 每日放送"
         }
     ,ensure_ascii=False))
+    logs_add('calendar','save_file Custom.json','Success')
     savef('Custom.xaml.ini',BUILD_VERSION)
+    logs_add('calendar','save_file Custom.xaml.ini','Success')
 
     s = gett('calendar/_style')
 
@@ -29,14 +31,17 @@ def calendar_build(json_data):
         .replace('{{title-date}}',f'{year}/{month}/{day}')\
         .replace('{{week}}',calendar_week_get(json_data, homepage=True)))
     )
+    logs_add('calendar','save_file Custom.xaml','Success')
     savef('calendar_all.json',json.dumps(
         {
             "Title": "PCL Bangumi 本周放送"
         }
     ,ensure_ascii=False))
+    logs_add('calendar','save_file calendar_all.json','Success')
     savef(
         'calendar_all.xaml',
         y(gett('calendar')\
         .replace('{{style}}',s)\
         .replace('{{week}}',calendar_week_get(json_data)))
     )
+    logs_add('calendar','save_file calendar_all.xaml','Success')

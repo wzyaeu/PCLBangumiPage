@@ -1,4 +1,4 @@
-from tool import gett, savef
+from tool import gett, logs_add
 
 from .anime_rank_rank_item_tag import anime_rank_rank_item_tag_get
 

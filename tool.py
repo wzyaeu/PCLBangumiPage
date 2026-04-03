@@ -4,6 +4,7 @@ import shutil
 import re
 import secrets
 import math
+from typing import Any
 
 with open('.version','r',encoding='utf-8') as f:
     VERSION = f.read()
@@ -13,14 +14,25 @@ HEADER = {
     'user-agent': 'wzyaeu/PclBangumiPage'
 }
 
+logs: dict[str,list[tuple[str,Any]]] = {}
+
+def logs_add(region: str, name: str, result: Any):
+    if region in logs:
+        logs[region].append((name,result))
+    else:
+        logs[region] = [(name,result)]
+
+def logs_result():
+    return logs
+
 ht = {}
 
-def gett(tn: str) -> str:
+def gett(tn: str, x:str = 'xaml') -> str:
     global ht
     if tn in ht.keys() :
         return ht[tn]
     else:
-        with open(os.path.join(os.path.dirname(__file__),'template',tn+'.xaml'), 'r', encoding='utf-8') as f:
+        with open(os.path.join(os.path.dirname(__file__),'template',tn+f'.{x}'), 'r', encoding='utf-8') as f:
             ht[tn] = f.read()
             return ht[tn]
 

@@ -1,4 +1,4 @@
-from tool import gett, savef, y, HEADER
+from tool import gett, savef, y, HEADER, logs_add
 from .anime_rank_rank import anime_rank_rank_get
 import json
 import requests
@@ -14,6 +14,7 @@ def anime_rank_build():
     for p in range(pages):
         print(f'anime_rank - 获取页面 {p+1}')
         data = requests.get(f'https://api.bgm.tv/v0/subjects?type=2&sort=rank&limit={limit}&offset={(limit*p)}', headers=HEADER)
+        logs_add('calendar','api_status_code',data.status_code)
         if data.status_code != 200:
             print(f'anime_rank - 无法获取页面api数据 ({data.status_code})')
             exit()
@@ -46,6 +47,7 @@ def anime_rank_build():
                 "Title": f"PCL Bangumi 动漫排行榜 | 第 {p+1} / {pages} 页"
             }
         ,ensure_ascii=False))
+        logs_add('anime_rank','save_file 'f'anime_rank_{p+1}.json','Success')
         savef(f'anime_rank_{p+1}.xaml',
             y(t\
             .replace('{{style}}',gett('anime_rank/_style'))\
@@ -54,3 +56,4 @@ def anime_rank_build():
             .replace('{{rank}}',anime_rank_rank_get(json_data, p*limit))\
             .replace('{{pagebtn}}',pagebtn))
         )
+        logs_add('anime_rank','save_file 'f'anime_rank_{p+1}.xaml','Success')

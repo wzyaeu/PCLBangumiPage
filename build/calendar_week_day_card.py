@@ -1,11 +1,11 @@
-from tool import gett
+from tool import gett, logs_add
 
 def calendar_week_day_card_get(json_data, i):
     print(f'calendar_week_day_card - 获取番剧卡片列表 - {i}')
+    logs_add('calendar_week_day_card','getlist',f'day: {i+1} count: {len(json_data[i]['items'])}')
     output = ''
     t = gett('calendar/week/day/card')
     for index, item in enumerate(json_data[i]['items'], start=1):
-        print(f'calendar_week_day_card - 获取番剧卡片 - {i} - {index}')
         itemt = t
         if 'rank' in item:
             itemt = itemt.replace('{{rank}}', str(item['rank']))

@@ -1,4 +1,4 @@
-from tool import gett
+from tool import gett, logs_add
 from .calendar_week_day import calendar_week_day_get
 
 from datetime import datetime
@@ -8,9 +8,11 @@ def calendar_week_get(json_data, homepage = False):
     wd = datetime.now(ZoneInfo("Asia/Shanghai")).weekday()
     print(f'calendar_week - 获取本周推荐番剧内容')
     print(homepage)
+    logs_add('calendar_week','is_homepage',homepage)
     if not homepage:
         d = {}
         for i in range(7):
+            logs_add('calendar_week','get_pagedata',f'day: {i+1}')
             d[i] = calendar_week_day_get(json_data, i, False)
 
         o = [d[i] for i in sorted(d.keys())]
@@ -18,6 +20,7 @@ def calendar_week_get(json_data, homepage = False):
         return gett('calendar/week')\
         .replace('{{day}}','\n'.join(o))
     else:
+        logs_add('calendar_week','get_pagedata','homepage')
         d = calendar_week_day_get(json_data, wd, True)
         return gett('calendar/week')\
         .replace('{{day}}',d)

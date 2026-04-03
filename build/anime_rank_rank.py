@@ -1,4 +1,4 @@
-from tool import gett
+from tool import gett, logs_add
 
 from .anime_rank_rank_item import anime_rank_rank_item_get
 
@@ -9,6 +9,7 @@ def anime_rank_rank_get(json_data, offset):
     o = ''
     for index, item in enumerate(json_data['data'], start=offset+1):
         o += anime_rank_rank_item_get(item, index)
+    logs_add('anime_rank_rank',f'build_page',f'offset: {offset} count: {len(json_data['data'])}')
 
     return t\
     .replace('{{item}}', o)

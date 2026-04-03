@@ -1,4 +1,4 @@
-from tool import gett, savef, y, HEADER
+from tool import gett, savef, logs_add, HEADER
 
 import random
 import requests
@@ -22,6 +22,7 @@ def random_build():
     data: Any
     while True:
         r = random.randint(1,700000)
+        r = 130364
         print(f'random - 测试id {r}')
         use, data = check_r(r)
         if use: o = all([use,data['rating']['score'] > 5,data['rating']['rank'] > 0, data['type'] == 2])
@@ -29,12 +30,14 @@ def random_build():
         print(f'random - {o}')
         if o:
             break
+    logs_add('random','start',f'random_id: {r}')
     
     savef('random.json',json.dumps(
         {
             "Title": "PCL Bangumi 随机推番"
         }
     ,ensure_ascii=False))
+    logs_add('random','save_file random.json','Success')
     savef('random.xaml',t\
         .replace('{{pic}}', data['images']['medium'])\
         .replace('{{name-cn}}', data['name_cn'] if data['name_cn'] != '' else data['name'])\
@@ -55,3 +58,4 @@ def random_build():
         .replace('{{info}}', data['summary'])\
         .replace('{{link}}', 'https://bgm.tv/subject/'+str(data['id']))
     )
+    logs_add('random','save_file random.xaml','Success')
