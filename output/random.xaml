@@ -241,7 +241,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="20"
-                                Text="Rank 4554"
+                                Text="Rank 4562"
                                 Foreground="#ffffff"
                                 Margin="8"/>
                         </StackPanel>
