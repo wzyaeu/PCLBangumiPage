@@ -22,7 +22,6 @@ def random_build():
     data: Any
     while True:
         r = random.randint(1,700000)
-        r = 130364
         print(f'random - 测试id {r}')
         use, data = check_r(r)
         if use: o = all([use,data['rating']['score'] > 5,data['rating']['rank'] > 0, data['type'] == 2])
