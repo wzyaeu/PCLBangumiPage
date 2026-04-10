@@ -34,14 +34,14 @@
                     <ColumnDefinition Width="2*"/>
                 </Grid.ColumnDefinitions>
                 <local:MyImage
-                    Source="https://lain.bgm.tv/r/800/pic/cover/l/a5/7c/53984_TeT2Y.jpg"
+                    Source="https://lain.bgm.tv/r/800/pic/cover/l/a1/67/68812_QUpB2.jpg"
                     Grid.Column="0"/>
                 <StackPanel Grid.Column="1"
                             Margin="5">
                     <TextBlock
                         FontSize="25"
-                        Text="恶魔阿萨谢尔在召唤你Z / よんでますよ、アザゼルさん。Z"
-                        ToolTip="恶魔阿萨谢尔在召唤你Z / よんでますよ、アザゼルさん。Z"
+                        Text="物语系列 第二季 / 〈物語〉シリーズ セカンドシーズン"
+                        ToolTip="物语系列 第二季 / 〈物語〉シリーズ セカンドシーズン"
                         FontWeight="Bold"
                         Foreground="{DynamicResource ColorBrush3}"
                         Margin="5"/>
@@ -52,7 +52,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="20"
-                                Text="Score 7.5"
+                                Text="Score 8.2"
                                 Foreground="#ffffff"
                                 Margin="8,8,0,0"/>
                             <Grid Margin="10"
@@ -74,7 +74,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="0">
                                     <Border
-                                        Height="1"
+                                        Height="5"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -90,7 +90,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="1">
                                     <Border
-                                        Height="4"
+                                        Height="13"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -106,7 +106,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="2">
                                     <Border
-                                        Height="21"
+                                        Height="23"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -122,7 +122,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="3">
                                     <Border
-                                        Height="18"
+                                        Height="7"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -138,7 +138,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="4">
                                     <Border
-                                        Height="5"
+                                        Height="1"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -154,7 +154,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="5">
                                     <Border
-                                        Height="1"
+                                        Height="0"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -241,7 +241,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="20"
-                                Text="Rank 893"
+                                Text="Rank 115"
                                 Foreground="#ffffff"
                                 Margin="8"/>
                         </StackPanel>
@@ -254,7 +254,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="18"
-                                Text="放送开始 2013-04-06"
+                                Text="放送开始 2013-07-06"
                                 Foreground="#92dcff"
                                 Margin="10"/>
                         </StackPanel>
@@ -262,7 +262,7 @@
                     <local:MyTextButton 
                                 Margin="4,5,0,0" Text="查看Bangumi"
                         EventType="打开网页"
-                        EventData="https://bgm.tv/subject/53984"/>
+                        EventData="https://bgm.tv/subject/68812"/>
                 </StackPanel>
             </Grid>
             <Line X1="0"
@@ -275,9 +275,10 @@
             <StackPanel>
                 <TextBlock
                     FontSize="13"
-                    Text="芥边侦探事务所，最强的无敌恶魔使芥边以及工读生助手佐隈，依照委托人的要求，召唤出恶魔来执行被委托案件。
-然而，召唤出来的恶魔虽然每个都赫赫有名，但每个却也都有着奇妙的中二病性格，让每次的案件都不是这么的顺利……
-原作在日本青年向双周刊《EVENING》上连载，作品中恶搞了许多同杂志作品。"
+                    Text="　　<物語>シリーズ セカンドシーズン　2013年　開幕
+　　猫物語(白)、傾物語、花物語、囮物語、鬼物語、恋物語の
+　　6作品が2013年にアニメ化されることが決定いたしました！
+　　最新情報は www.monogatari-series.com/2ndseason/にて随時公開いたします！"
                     Margin="10"
                     TextWrapping="Wrap"
                     Height="90"/>
