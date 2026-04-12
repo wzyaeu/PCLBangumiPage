@@ -34,14 +34,14 @@
                     <ColumnDefinition Width="2*"/>
                 </Grid.ColumnDefinitions>
                 <local:MyImage
-                    Source="https://lain.bgm.tv/r/800/pic/cover/l/2e/df/397534_kMDKF.jpg"
+                    Source="https://lain.bgm.tv/r/800/pic/cover/l/27/80/140307_zRnq6.jpg"
                     Grid.Column="0"/>
                 <StackPanel Grid.Column="1"
                             Margin="5">
                     <TextBlock
                         FontSize="25"
-                        Text="长安三万里 / 长安三万里"
-                        ToolTip="长安三万里 / 长安三万里"
+                        Text="剧场版宝可梦XY&Z: 波尔凯尼恩与机巧的玛机雅娜 / ポケモン・ザ・ムービーXY＆Z ボルケニオンと機巧のマギアナ"
+                        ToolTip="剧场版宝可梦XY&Z: 波尔凯尼恩与机巧的玛机雅娜 / ポケモン・ザ・ムービーXY＆Z ボルケニオンと機巧のマギアナ"
                         FontWeight="Bold"
                         Foreground="{DynamicResource ColorBrush3}"
                         Margin="5"/>
@@ -52,7 +52,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="20"
-                                Text="Score 6.7"
+                                Text="Score 6.4"
                                 Foreground="#ffffff"
                                 Margin="8,8,0,0"/>
                             <Grid Margin="10"
@@ -74,7 +74,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="0">
                                     <Border
-                                        Height="1"
+                                        Height="0"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -90,7 +90,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="1">
                                     <Border
-                                        Height="2"
+                                        Height="0"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -106,7 +106,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="2">
                                     <Border
-                                        Height="9"
+                                        Height="3"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -122,7 +122,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="3">
                                     <Border
-                                        Height="18"
+                                        Height="17"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -138,7 +138,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="4">
                                     <Border
-                                        Height="12"
+                                        Height="23"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -154,7 +154,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="5">
                                     <Border
-                                        Height="4"
+                                        Height="6"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -170,7 +170,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="6">
                                     <Border
-                                        Height="2"
+                                        Height="1"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -241,7 +241,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="20"
-                                Text="Rank 4272"
+                                Text="Rank 5772"
                                 Foreground="#ffffff"
                                 Margin="8"/>
                         </StackPanel>
@@ -254,7 +254,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="18"
-                                Text="放送开始 2023-07-08"
+                                Text="放送开始 2016-07-16"
                                 Foreground="#92dcff"
                                 Margin="10"/>
                         </StackPanel>
@@ -262,7 +262,7 @@
                     <local:MyTextButton 
                                 Margin="4,5,0,0" Text="查看Bangumi"
                         EventType="打开网页"
-                        EventData="https://bgm.tv/subject/397534"/>
+                        EventData="https://bgm.tv/subject/140307"/>
                 </StackPanel>
             </Grid>
             <Line X1="0"
@@ -275,8 +275,12 @@
             <StackPanel>
                 <TextBlock
                     FontSize="13"
-                    Text="安史之乱后数年，吐蕃大军入侵西南，大唐节度使高适交战不利。长安岌岌可危。困守孤城的高适向监军太监回忆起自己与李白的一生往事。
-"
+                    Text="宝可梦史上最激烈、围绕体内潜藏有未知力量人造宝可梦的对战拉开了序幕！
+在正在旅行的小智一行人面前，一只巨大的宝可梦突然从天而降！降下时的冲击导致四周尘土飞扬，在飞扬的尘土中出现的是幻之宝可梦“波尔凯尼恩”。在远离人烟的《尼贝尔高原》上，和被人类伤害过的宝可梦们共同生活的波尔凯尼恩，实际上非常讨厌人类。
+无视小智一行人准备匆忙离去的波尔凯尼恩，却不知为何会将小智一起拖走。奔跑而去的波尔凯尼恩与被拖拽的小智，在不知不觉间被奇妙的锁链捆绑在一起了！即使想分开也无法分开。无奈之下波尔凯尼恩只好拖着刚碰上的小智继续朝着《阿佐特王国》跑去。
+另一方面，在巨大的齿轮持续转动的超级机械都市阿佐特王国，其大臣贾维斯获得了寻求多年的终极发明。这就是500年前在阿佐特王国诞生，后来却不知所踪的人造宝可梦“玛机雅娜”，和在玛机雅娜身体内潜藏的称为“魂心”的未知力量。贾维斯企图利用该力量支配阿佐特王国，而波尔凯尼恩则想将在尼贝尔高原被带走的玛机雅娜抢回来！
+“人类果然不可饶恕！”
+究竟被紧紧相连的波尔凯尼恩和小智，是否能够合力救出玛机雅娜？而潜藏在“魂心”中的真正力量又是什么？宝可梦史上最激烈的对战即将展开！"
                     Margin="10"
                     TextWrapping="Wrap"
                     Height="90"/>
