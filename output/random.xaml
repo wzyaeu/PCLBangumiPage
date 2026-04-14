@@ -34,14 +34,14 @@
                     <ColumnDefinition Width="2*"/>
                 </Grid.ColumnDefinitions>
                 <local:MyImage
-                    Source="https://lain.bgm.tv/r/800/pic/cover/l/90/40/185837_mmNwi.jpg"
+                    Source="https://lain.bgm.tv/r/800/pic/cover/l/4a/46/513352_BsaEZ.jpg"
                     Grid.Column="0"/>
                 <StackPanel Grid.Column="1"
                             Margin="5">
                     <TextBlock
                         FontSize="25"
-                        Text="Re：从迷你开始的异世界生活 / Re:プチから始める異世界生活"
-                        ToolTip="Re：从迷你开始的异世界生活 / Re:プチから始める異世界生活"
+                        Text="处女朋克：发条女孩 / ヴァージン・パンク Clockwork Girl"
+                        ToolTip="处女朋克：发条女孩 / ヴァージン・パンク Clockwork Girl"
                         FontWeight="Bold"
                         Foreground="{DynamicResource ColorBrush3}"
                         Margin="5"/>
@@ -52,7 +52,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="20"
-                                Text="Score 6.4"
+                                Text="Score 6.7"
                                 Foreground="#ffffff"
                                 Margin="8,8,0,0"/>
                             <Grid Margin="10"
@@ -90,7 +90,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="1">
                                     <Border
-                                        Height="1"
+                                        Height="0"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -106,7 +106,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="2">
                                     <Border
-                                        Height="4"
+                                        Height="8"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -122,7 +122,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="3">
                                     <Border
-                                        Height="17"
+                                        Height="23"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -138,7 +138,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="4">
                                     <Border
-                                        Height="21"
+                                        Height="14"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -154,7 +154,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="5">
                                     <Border
-                                        Height="6"
+                                        Height="3"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -170,7 +170,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="6">
                                     <Border
-                                        Height="1"
+                                        Height="0"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -241,7 +241,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="20"
-                                Text="Rank 5584"
+                                Text="Rank 3788"
                                 Foreground="#ffffff"
                                 Margin="8"/>
                         </StackPanel>
@@ -254,7 +254,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="18"
-                                Text="放送开始 2016-06-24"
+                                Text="放送开始 2025-06-27"
                                 Foreground="#92dcff"
                                 Margin="10"/>
                         </StackPanel>
@@ -262,7 +262,7 @@
                     <local:MyTextButton 
                                 Margin="4,5,0,0" Text="查看Bangumi"
                         EventType="打开网页"
-                        EventData="https://bgm.tv/subject/185837"/>
+                        EventData="https://bgm.tv/subject/513352"/>
                 </StackPanel>
             </Grid>
             <Line X1="0"
@@ -275,7 +275,22 @@
             <StackPanel>
                 <TextBlock
                     FontSize="13"
-                    Text="「Re:ゼロから始める異世界生活」第12話本編終了後からはミニアニメ「Re:プチから始める異世界生活」をお送りいたします！"
+                    Text="孤儿院出身的少女神冰羽舞，曾梦想成为索玛迪亚工程师，却在少年时亲眼目睹Mr.优雅处决院长（非法改造索玛迪亚通缉犯），梦想与家园一夕崩毁。对Mr.优雅的恨意，伴随她成长为猎人。十年后，羽舞已是独当一面的赏金猎人，却再度与Mr.优雅相遇。对方试图招募她加入旗下组织「阿基米DEATH」，遭羽舞冷淡拒绝后，枪口指向了她……
+非法改造索玛迪亚通缉犯 VS 赏金猎人——少女的宿命战役由此展开。
+
+
+
+[简介原文]
+西暦2099年。
+医療用人工人体技術「ソーマディア」が発達し、人類はあらゆる怪我や病気を克服できるようになっていた。
+しかし、ソーマディアの発展に伴い、その技術を悪用した犯罪も急増。
+ソーマディアは生身の肉体を遥かに凌ぐ身体能力を有しており、違法改造することで犯罪に悪用することが可能だったのだ。
+そんなソーマディア犯罪に対応すべく、政府はバウンティハンター制度を策定。
+
+バウンティハンターとして登録された民間人は、警察が指定した違法ソーマディア指名手配犯を殺処分することが認められ、その代価として多額の懸賞金を手に入れられるようになった。
+
+そんな世界で、神氷羽舞はバウンティハンターとして犯罪者を狩ることで生計を立てていた。しかしある日、仕事から自宅に戻ると、そこには因縁の男・Mr.エレガンスの姿があり――彼女の運命が狂い始めていく。
+機械仕掛けの少女たちが紡ぐ、硝煙の匂い漂うサスペンスアクション、開幕――！"
                     Margin="10"
                     TextWrapping="Wrap"
                     Height="90"/>
