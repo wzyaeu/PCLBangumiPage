@@ -34,14 +34,14 @@
                     <ColumnDefinition Width="2*"/>
                 </Grid.ColumnDefinitions>
                 <local:MyImage
-                    Source="https://lain.bgm.tv/r/800/pic/cover/l/49/90/371890_S65st.jpg"
+                    Source="https://lain.bgm.tv/r/800/pic/cover/l/db/6d/281282_6OYBV.jpg"
                     Grid.Column="0"/>
                 <StackPanel Grid.Column="1"
                             Margin="5">
                     <TextBlock
                         FontSize="25"
-                        Text="镜之孤城 / かがみの孤城"
-                        ToolTip="镜之孤城 / かがみの孤城"
+                        Text="狐妖小红娘5 南国篇 / 狐妖小红娘 南国篇"
+                        ToolTip="狐妖小红娘5 南国篇 / 狐妖小红娘 南国篇"
                         FontWeight="Bold"
                         Foreground="{DynamicResource ColorBrush3}"
                         Margin="5"/>
@@ -74,7 +74,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="0">
                                     <Border
-                                        Height="0"
+                                        Height="1"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -106,7 +106,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="2">
                                     <Border
-                                        Height="7"
+                                        Height="5"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -122,7 +122,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="3">
                                     <Border
-                                        Height="18"
+                                        Height="17"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -138,7 +138,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="4">
                                     <Border
-                                        Height="16"
+                                        Height="20"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -170,7 +170,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="6">
                                     <Border
-                                        Height="2"
+                                        Height="1"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -241,7 +241,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="20"
-                                Text="Rank 5430"
+                                Text="Rank 5239"
                                 Foreground="#ffffff"
                                 Margin="8"/>
                         </StackPanel>
@@ -254,7 +254,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="18"
-                                Text="放送开始 2022-12-23"
+                                Text="放送开始 2017-11-24"
                                 Foreground="#92dcff"
                                 Margin="10"/>
                         </StackPanel>
@@ -262,7 +262,7 @@
                     <local:MyTextButton 
                                 Margin="4,5,0,0" Text="查看Bangumi"
                         EventType="打开网页"
-                        EventData="https://bgm.tv/subject/371890"/>
+                        EventData="https://bgm.tv/subject/281282"/>
                 </StackPanel>
             </Grid>
             <Line X1="0"
@@ -275,8 +275,7 @@
             <StackPanel>
                 <TextBlock
                     FontSize="13"
-                    Text="“那，是改变我世界的入口——”无法在学校找到容身之处、一直把自己关在居室里的初中生心，某天发现房中的镜子突然发出不可思议的光芒，不光被吸进去，还看见镜后竟存在着一座童话里才会出现的城堡。她在城中遇上另外六名素未谋面的中学生，与此同时，一名自称“狼大人”的小女孩戴着狼面具出现，对他们宣告“谁能找到藏于城堡的锁匙，就能实现任何愿望”，而搜索的限期为一年。
-七人一边抱着疑惑，一边寻找锁匙，逐渐发现彼此有着一个共通点，亦通过慢慢了解各人于现实世界的苦恼，结下深厚友谊，把城堡视为他们特别的“归宿”。而他们没想到的是，此时“它们”竟袭来了。当一切都明朗之时，等待着他们的，是超越想象的奇迹。"
+                    Text="南国公主欢都落兰设下了一系列计策诱拐了白月初，并将他的身体与一只小鸡进行了互换，她号称想要用白月初的身体进行借尸还魂，让她的续缘恋人平丘月初醒来。平丘月初本是东方月初的转世之一，涂山方面要求他和苏苏结婚，但他并不想接受这个既定命运，在神秘人的指点下逃离了涂山，因缘际会之下与南国公主相识相爱并为公主而死，临死前在昏迷的梦中完成了与公主的再世续缘仪式。公主从此努力研习法术，明面上是想要平丘再次醒来，实际上是想用她自己的命换取平丘与白月初共存的机会，而她的执念也被黑狐发现并利用。幸好有白月初、涂山苏苏等人介入，驱除了黑狐并解开了公主的心结，并让她与真正的平丘月初见面，实现了他们的愿望。"
                     Margin="10"
                     TextWrapping="Wrap"
                     Height="90"/>
