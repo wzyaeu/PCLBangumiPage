@@ -34,14 +34,14 @@
                     <ColumnDefinition Width="2*"/>
                 </Grid.ColumnDefinitions>
                 <local:MyImage
-                    Source="https://lain.bgm.tv/r/800/pic/cover/l/db/6d/281282_6OYBV.jpg"
+                    Source="https://lain.bgm.tv/r/800/pic/cover/l/62/b4/255550_jljxB.jpg"
                     Grid.Column="0"/>
                 <StackPanel Grid.Column="1"
                             Margin="5">
                     <TextBlock
                         FontSize="25"
-                        Text="狐妖小红娘5 南国篇 / 狐妖小红娘 南国篇"
-                        ToolTip="狐妖小红娘5 南国篇 / 狐妖小红娘 南国篇"
+                        Text="欢迎光临千岁酱 / おこしやす、ちとせちゃん"
+                        ToolTip="欢迎光临千岁酱 / おこしやす、ちとせちゃん"
                         FontWeight="Bold"
                         Foreground="{DynamicResource ColorBrush3}"
                         Margin="5"/>
@@ -52,7 +52,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="20"
-                                Text="Score 6.5"
+                                Text="Score 6"
                                 Foreground="#ffffff"
                                 Margin="8,8,0,0"/>
                             <Grid Margin="10"
@@ -74,7 +74,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="0">
                                     <Border
-                                        Height="1"
+                                        Height="0"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -106,7 +106,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="2">
                                     <Border
-                                        Height="5"
+                                        Height="3"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -122,7 +122,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="3">
                                     <Border
-                                        Height="17"
+                                        Height="12"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -138,7 +138,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="4">
                                     <Border
-                                        Height="20"
+                                        Height="17"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -154,7 +154,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="5">
                                     <Border
-                                        Height="5"
+                                        Height="13"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -170,7 +170,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="6">
                                     <Border
-                                        Height="1"
+                                        Height="2"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -186,7 +186,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="7">
                                     <Border
-                                        Height="0"
+                                        Height="1"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -241,7 +241,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="20"
-                                Text="Rank 5239"
+                                Text="Rank 6248"
                                 Foreground="#ffffff"
                                 Margin="8"/>
                         </StackPanel>
@@ -254,7 +254,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="18"
-                                Text="放送开始 2017-11-24"
+                                Text="放送开始 2018-10-05"
                                 Foreground="#92dcff"
                                 Margin="10"/>
                         </StackPanel>
@@ -262,7 +262,7 @@
                     <local:MyTextButton 
                                 Margin="4,5,0,0" Text="查看Bangumi"
                         EventType="打开网页"
-                        EventData="https://bgm.tv/subject/281282"/>
+                        EventData="https://bgm.tv/subject/255550"/>
                 </StackPanel>
             </Grid>
             <Line X1="0"
@@ -275,7 +275,7 @@
             <StackPanel>
                 <TextBlock
                     FontSize="13"
-                    Text="南国公主欢都落兰设下了一系列计策诱拐了白月初，并将他的身体与一只小鸡进行了互换，她号称想要用白月初的身体进行借尸还魂，让她的续缘恋人平丘月初醒来。平丘月初本是东方月初的转世之一，涂山方面要求他和苏苏结婚，但他并不想接受这个既定命运，在神秘人的指点下逃离了涂山，因缘际会之下与南国公主相识相爱并为公主而死，临死前在昏迷的梦中完成了与公主的再世续缘仪式。公主从此努力研习法术，明面上是想要平丘再次醒来，实际上是想用她自己的命换取平丘与白月初共存的机会，而她的执念也被黑狐发现并利用。幸好有白月初、涂山苏苏等人介入，驱除了黑狐并解开了公主的心结，并让她与真正的平丘月初见面，实现了他们的愿望。"
+                    Text=""
                     Margin="10"
                     TextWrapping="Wrap"
                     Height="90"/>
