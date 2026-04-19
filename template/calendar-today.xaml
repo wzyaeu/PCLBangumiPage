@@ -109,7 +109,7 @@
                     <local:MyListItem Margin="10,2"
                                       Logo="pack://application:,,,/images/Blocks/Anvil.png"
                                       Title="动漫排行榜"
-                                      Info="Rank值排行的动漫排行榜"
+                                      Info="动漫排行榜榜单"
                                       EventType="打开帮助"
                                       Type="Clickable"
                                       EventData="https://pbp.kaphia.qzz.io/anime_rank_1.json"/>
