@@ -34,14 +34,14 @@
                     <ColumnDefinition Width="2*"/>
                 </Grid.ColumnDefinitions>
                 <local:MyImage
-                    Source="https://lain.bgm.tv/r/800/pic/cover/l/d0/59/213076_J5y9R.jpg"
+                    Source="https://lain.bgm.tv/r/800/pic/cover/l/91/88/244_gIPgp.jpg"
                     Grid.Column="0"/>
                 <StackPanel Grid.Column="1"
                             Margin="5">
                     <TextBlock
                         FontSize="25"
-                        Text="如果有妹妹就好了。 / 妹さえいればいい。"
-                        ToolTip="如果有妹妹就好了。 / 妹さえいればいい。"
+                        Text="神灵狩 / 神霊狩/GHOST HOUND"
+                        ToolTip="神灵狩 / 神霊狩/GHOST HOUND"
                         FontWeight="Bold"
                         Foreground="{DynamicResource ColorBrush3}"
                         Margin="5"/>
@@ -52,7 +52,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="20"
-                                Text="Score 6.7"
+                                Text="Score 6.8"
                                 Foreground="#ffffff"
                                 Margin="8,8,0,0"/>
                             <Grid Margin="10"
@@ -74,7 +74,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="0">
                                     <Border
-                                        Height="0"
+                                        Height="1"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -90,7 +90,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="1">
                                     <Border
-                                        Height="1"
+                                        Height="2"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -106,7 +106,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="2">
                                     <Border
-                                        Height="7"
+                                        Height="10"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -122,7 +122,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="3">
                                     <Border
-                                        Height="22"
+                                        Height="19"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -138,7 +138,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="4">
                                     <Border
-                                        Height="15"
+                                        Height="12"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -154,7 +154,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="5">
                                     <Border
-                                        Height="3"
+                                        Height="4"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -241,7 +241,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="20"
-                                Text="Rank 4350"
+                                Text="Rank 3390"
                                 Foreground="#ffffff"
                                 Margin="8"/>
                         </StackPanel>
@@ -254,7 +254,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="18"
-                                Text="放送开始 2017-10-08"
+                                Text="放送开始 2007-10-18"
                                 Foreground="#92dcff"
                                 Margin="10"/>
                         </StackPanel>
@@ -262,7 +262,7 @@
                     <local:MyTextButton 
                                 Margin="4,5,0,0" Text="查看Bangumi"
                         EventType="打开网页"
-                        EventData="https://bgm.tv/subject/213076"/>
+                        EventData="https://bgm.tv/subject/244"/>
                 </StackPanel>
             </Grid>
             <Line X1="0"
@@ -275,11 +275,7 @@
             <StackPanel>
                 <TextBlock
                     FontSize="13"
-                    Text="「如果有妹妹的话就能拥有最棒的人生了，为什么我却没有妹妹呢……？」
-专写妹系作品的妹控小说家羽岛伊月，身边聚集着各式各样不同个性的人物。有天才变态作家可儿那由多、女大学生白川京、插画家屁桃，以及鬼畜税务师大野艾希莉等等。
-伊月等人虽然各自有着不同的烦恼，但还是一边写着小说，玩着电玩，喝着酒，申报所得税，过着喧闹的日常生活。
-在一旁温暖守护着伊月等人的，是伊月的继弟千寻。然而，千寻竟藏着一个天大的秘密……
-欢乐又锥心，由天才、凡人与怪咖所展开的多重路线青春恋爱喜剧，现在开演！"
+                    Text="　　居住在水天町的三为中学生，都有着各自无法抹杀却又不想回忆起的过去，不知是否因为相同的原因，他们的灵魂会发生体外脱离，并以这种形式穿梭于现世与 “幽世”之间。这个现实世界本没有神灵，随着“幽世”中不断发生异常，而开始吞噬现实世界。三位少年在“幽世”冒险的时候，逐渐了解到“幽世”与什么地方相连——献给持有少年心的成人们，一部永远的心灵少年谭。"
                     Margin="10"
                     TextWrapping="Wrap"
                     Height="90"/>
