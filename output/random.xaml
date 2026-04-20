@@ -34,14 +34,14 @@
                     <ColumnDefinition Width="2*"/>
                 </Grid.ColumnDefinitions>
                 <local:MyImage
-                    Source="https://lain.bgm.tv/r/800/pic/cover/l/91/88/244_gIPgp.jpg"
+                    Source="https://lain.bgm.tv/r/800/pic/cover/l/2f/2b/334_MWQMC.jpg"
                     Grid.Column="0"/>
                 <StackPanel Grid.Column="1"
                             Margin="5">
                     <TextBlock
                         FontSize="25"
-                        Text="神灵狩 / 神霊狩/GHOST HOUND"
-                        ToolTip="神灵狩 / 神霊狩/GHOST HOUND"
+                        Text="全金属狂潮 / フルメタル・パニック!"
+                        ToolTip="全金属狂潮 / フルメタル・パニック!"
                         FontWeight="Bold"
                         Foreground="{DynamicResource ColorBrush3}"
                         Margin="5"/>
@@ -52,7 +52,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="20"
-                                Text="Score 6.8"
+                                Text="Score 7.6"
                                 Foreground="#ffffff"
                                 Margin="8,8,0,0"/>
                             <Grid Margin="10"
@@ -74,7 +74,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="0">
                                     <Border
-                                        Height="1"
+                                        Height="2"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -90,7 +90,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="1">
                                     <Border
-                                        Height="2"
+                                        Height="5"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -106,7 +106,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="2">
                                     <Border
-                                        Height="10"
+                                        Height="21"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -122,7 +122,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="3">
                                     <Border
-                                        Height="19"
+                                        Height="16"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -138,7 +138,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="4">
                                     <Border
-                                        Height="12"
+                                        Height="5"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -154,7 +154,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="5">
                                     <Border
-                                        Height="4"
+                                        Height="1"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -170,7 +170,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="6">
                                     <Border
-                                        Height="1"
+                                        Height="0"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -241,7 +241,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="20"
-                                Text="Rank 3390"
+                                Text="Rank 762"
                                 Foreground="#ffffff"
                                 Margin="8"/>
                         </StackPanel>
@@ -254,7 +254,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="18"
-                                Text="放送开始 2007-10-18"
+                                Text="放送开始 2002-01-15"
                                 Foreground="#92dcff"
                                 Margin="10"/>
                         </StackPanel>
@@ -262,7 +262,7 @@
                     <local:MyTextButton 
                                 Margin="4,5,0,0" Text="查看Bangumi"
                         EventType="打开网页"
-                        EventData="https://bgm.tv/subject/244"/>
+                        EventData="https://bgm.tv/subject/334"/>
                 </StackPanel>
             </Grid>
             <Line X1="0"
@@ -275,7 +275,7 @@
             <StackPanel>
                 <TextBlock
                     FontSize="13"
-                    Text="　　居住在水天町的三为中学生，都有着各自无法抹杀却又不想回忆起的过去，不知是否因为相同的原因，他们的灵魂会发生体外脱离，并以这种形式穿梭于现世与 “幽世”之间。这个现实世界本没有神灵，随着“幽世”中不断发生异常，而开始吞噬现实世界。三位少年在“幽世”冒险的时候，逐渐了解到“幽世”与什么地方相连——献给持有少年心的成人们，一部永远的心灵少年谭。"
+                    Text="在20世纪，世界格局比较稳定的时候，各大国都想增强自己的军事力量，从而称霸世界。而Whisper[耳语者]这种特殊的人类，自从出生开始就拥有特殊的能力，不用学习也能知道超越当时科技几十年的被称为黑科技的高科技手段。为了保护世界格局的稳定，神秘组织Mithril[米斯利尔]派出了相良中士等三人去保护一名已知的Whisper[耳语者]，即千鸟香奈。其中相良中士装成转校生随时跟踪保护，由于长期处于军队的生活，完全没有普通高中生的生活常识的相良中士在学校里闹了不少笑话。在学校期间也发生了不少恐怖的事情，如苏联为绑架香奈制造的劫机事件等。宗介和千鸟之间也因为发生的各种事件产生了特殊的感情。"
                     Margin="10"
                     TextWrapping="Wrap"
                     Height="90"/>
