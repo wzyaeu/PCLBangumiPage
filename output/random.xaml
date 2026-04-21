@@ -34,14 +34,14 @@
                     <ColumnDefinition Width="2*"/>
                 </Grid.ColumnDefinitions>
                 <local:MyImage
-                    Source="https://lain.bgm.tv/r/800/pic/cover/l/2f/2b/334_MWQMC.jpg"
+                    Source="https://lain.bgm.tv/r/800/pic/cover/l/fb/97/186404_jjj33.jpg"
                     Grid.Column="0"/>
                 <StackPanel Grid.Column="1"
                             Margin="5">
                     <TextBlock
                         FontSize="25"
-                        Text="全金属狂潮 / フルメタル・パニック!"
-                        ToolTip="全金属狂潮 / フルメタル・パニック!"
+                        Text="刃牙道 OAD / 刃牙道 OAD"
+                        ToolTip="刃牙道 OAD / 刃牙道 OAD"
                         FontWeight="Bold"
                         Foreground="{DynamicResource ColorBrush3}"
                         Margin="5"/>
@@ -52,7 +52,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="20"
-                                Text="Score 7.6"
+                                Text="Score 5.3"
                                 Foreground="#ffffff"
                                 Margin="8,8,0,0"/>
                             <Grid Margin="10"
@@ -74,7 +74,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="0">
                                     <Border
-                                        Height="2"
+                                        Height="0"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -90,7 +90,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="1">
                                     <Border
-                                        Height="5"
+                                        Height="0"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -106,7 +106,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="2">
                                     <Border
-                                        Height="21"
+                                        Height="1"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -122,7 +122,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="3">
                                     <Border
-                                        Height="16"
+                                        Height="8"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -138,7 +138,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="4">
                                     <Border
-                                        Height="5"
+                                        Height="12"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -154,7 +154,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="5">
                                     <Border
-                                        Height="1"
+                                        Height="17"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -170,7 +170,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="6">
                                     <Border
-                                        Height="0"
+                                        Height="6"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -202,7 +202,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="8">
                                     <Border
-                                        Height="0"
+                                        Height="1"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -218,7 +218,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="9">
                                     <Border
-                                        Height="0"
+                                        Height="2"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -241,7 +241,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="20"
-                                Text="Rank 762"
+                                Text="Rank 7306"
                                 Foreground="#ffffff"
                                 Margin="8"/>
                         </StackPanel>
@@ -254,7 +254,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="18"
-                                Text="放送开始 2002-01-15"
+                                Text="放送开始 2016-12-06"
                                 Foreground="#92dcff"
                                 Margin="10"/>
                         </StackPanel>
@@ -262,7 +262,7 @@
                     <local:MyTextButton 
                                 Margin="4,5,0,0" Text="查看Bangumi"
                         EventType="打开网页"
-                        EventData="https://bgm.tv/subject/334"/>
+                        EventData="https://bgm.tv/subject/186404"/>
                 </StackPanel>
             </Grid>
             <Line X1="0"
@@ -275,7 +275,7 @@
             <StackPanel>
                 <TextBlock
                     FontSize="13"
-                    Text="在20世纪，世界格局比较稳定的时候，各大国都想增强自己的军事力量，从而称霸世界。而Whisper[耳语者]这种特殊的人类，自从出生开始就拥有特殊的能力，不用学习也能知道超越当时科技几十年的被称为黑科技的高科技手段。为了保护世界格局的稳定，神秘组织Mithril[米斯利尔]派出了相良中士等三人去保护一名已知的Whisper[耳语者]，即千鸟香奈。其中相良中士装成转校生随时跟踪保护，由于长期处于军队的生活，完全没有普通高中生的生活常识的相良中士在学校里闹了不少笑话。在学校期间也发生了不少恐怖的事情，如苏联为绑架香奈制造的劫机事件等。宗介和千鸟之间也因为发生的各种事件产生了特殊的感情。"
+                    Text="刃牙道 单行本14卷DVD附。"
                     Margin="10"
                     TextWrapping="Wrap"
                     Height="90"/>
