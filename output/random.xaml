@@ -34,14 +34,14 @@
                     <ColumnDefinition Width="2*"/>
                 </Grid.ColumnDefinitions>
                 <local:MyImage
-                    Source="https://lain.bgm.tv/r/800/pic/cover/l/fb/97/186404_jjj33.jpg"
+                    Source="https://lain.bgm.tv/r/800/pic/cover/l/ab/e8/56112_QDldL.jpg"
                     Grid.Column="0"/>
                 <StackPanel Grid.Column="1"
                             Margin="5">
                     <TextBlock
                         FontSize="25"
-                        Text="刃牙道 OAD / 刃牙道 OAD"
-                        ToolTip="刃牙道 OAD / 刃牙道 OAD"
+                        Text="只有神知道的世界 女神篇 / 神のみぞ知るセカイ 女神篇"
+                        ToolTip="只有神知道的世界 女神篇 / 神のみぞ知るセカイ 女神篇"
                         FontWeight="Bold"
                         Foreground="{DynamicResource ColorBrush3}"
                         Margin="5"/>
@@ -52,7 +52,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="20"
-                                Text="Score 5.3"
+                                Text="Score 7.3"
                                 Foreground="#ffffff"
                                 Margin="8,8,0,0"/>
                             <Grid Margin="10"
@@ -74,7 +74,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="0">
                                     <Border
-                                        Height="0"
+                                        Height="1"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -90,7 +90,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="1">
                                     <Border
-                                        Height="0"
+                                        Height="3"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -106,7 +106,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="2">
                                     <Border
-                                        Height="1"
+                                        Height="17"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -122,7 +122,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="3">
                                     <Border
-                                        Height="8"
+                                        Height="20"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -138,7 +138,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="4">
                                     <Border
-                                        Height="12"
+                                        Height="7"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -154,7 +154,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="5">
                                     <Border
-                                        Height="17"
+                                        Height="1"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -170,7 +170,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="6">
                                     <Border
-                                        Height="6"
+                                        Height="0"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -202,7 +202,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="8">
                                     <Border
-                                        Height="1"
+                                        Height="0"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -218,7 +218,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="9">
                                     <Border
-                                        Height="2"
+                                        Height="0"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -241,7 +241,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="20"
-                                Text="Rank 7306"
+                                Text="Rank 1310"
                                 Foreground="#ffffff"
                                 Margin="8"/>
                         </StackPanel>
@@ -254,7 +254,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="18"
-                                Text="放送开始 2016-12-06"
+                                Text="放送开始 2013-07-08"
                                 Foreground="#92dcff"
                                 Margin="10"/>
                         </StackPanel>
@@ -262,7 +262,7 @@
                     <local:MyTextButton 
                                 Margin="4,5,0,0" Text="查看Bangumi"
                         EventType="打开网页"
-                        EventData="https://bgm.tv/subject/186404"/>
+                        EventData="https://bgm.tv/subject/56112"/>
                 </StackPanel>
             </Grid>
             <Line X1="0"
@@ -275,7 +275,7 @@
             <StackPanel>
                 <TextBlock
                     FontSize="13"
-                    Text="刃牙道 单行本14卷DVD附。"
+                    Text="已经确定将于今年7月在TV东京电视台开播的「只有神知道的世界」TV动画第3季，近日于杂志公开了第3季的主线！新篇章将以原作漫画中的女神篇为主题，讲述男主桂木桂马率领众后宫寻找未知女神的故事，动画中桂木桂马将对过去攻略过的少女们进行再攻略！"
                     Margin="10"
                     TextWrapping="Wrap"
                     Height="90"/>
