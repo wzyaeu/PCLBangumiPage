@@ -1,4 +1,4 @@
-from tool import gett, savef, y, BUILD_VERSION, logs_add
+from tool import gett, savef, y, BUILD_VERSION, logs_add, BUILD_TIME
 from .calendar_week import calendar_week_get
 
 import json
@@ -14,7 +14,7 @@ def calendar_build(json_data):
         }
     ,ensure_ascii=False))
     logs_add('calendar','save_file Custom.json','Success')
-    savef('Custom.xaml.ini',BUILD_VERSION)
+    savef('Custom.xaml.ini',BUILD_TIME)
     logs_add('calendar','save_file Custom.xaml.ini','Success')
 
     s = gett('calendar/_style')

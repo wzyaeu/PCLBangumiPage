@@ -9,6 +9,7 @@ from typing import Any
 with open('.version','r',encoding='utf-8') as f:
     VERSION = f.read()
 BUILD_VERSION = secrets.token_hex(4)
+BUILD_TIME = int(time.time())
 
 HEADER = {
     'user-agent': 'wzyaeu/PclBangumiPage'
