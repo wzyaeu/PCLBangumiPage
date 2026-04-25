@@ -46,7 +46,7 @@ def calendar_week_day_card_get(json_data, i):
         
         itemt = itemt\
             .replace('{{name}}',item['name'])\
-            .replace('{{pic}}',item['images']['common'] if item.get('images',None) != None else 'https://pbp.kaphia.qzz.io/images/image_placeholder_1_1.png')\
+            .replace('{{pic}}',item['images']['common'] if item.get('images',None) != None else 'https://pbp.kaphia.qzz.io/image_placeholder_1_1.png')\
             .replace('{{link}}',item['url'])
 
         output += itemt

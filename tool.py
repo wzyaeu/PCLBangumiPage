@@ -41,7 +41,12 @@ def gettb(tn: str) -> bytes:
     with open(os.path.join(os.path.dirname(__file__),'template',tn), 'rb') as f:
         return f.read()
 
-def savef(n, d: str):
+def savef(n, d: Any):
+    if type(d) != str:
+        try:
+            d = str(d)
+        except:
+            raise
     os.makedirs(os.path.dirname(os.path.join(os.path.dirname(__file__),'output',n)), exist_ok=True)
     with open(os.path.join(os.path.dirname(__file__),'output',n), 'w', encoding='utf-8') as f:
         f.write(d)
