@@ -34,14 +34,14 @@
                     <ColumnDefinition Width="2*"/>
                 </Grid.ColumnDefinitions>
                 <local:MyImage
-                    Source="https://lain.bgm.tv/r/800/pic/cover/l/7c/ff/13133_66TmP.jpg"
+                    Source="https://lain.bgm.tv/r/800/pic/cover/l/06/a8/1593_DjJ48.jpg"
                     Grid.Column="0"/>
                 <StackPanel Grid.Column="1"
                             Margin="5">
                     <TextBlock
                         FontSize="25"
-                        Text="羊羊快乐的一年 / 羊羊快乐的一年"
-                        ToolTip="羊羊快乐的一年 / 羊羊快乐的一年"
+                        Text="阿拉德战记 Slap-up Party / アラド戦記 ～スラップアップパーティー～"
+                        ToolTip="阿拉德战记 Slap-up Party / アラド戦記 ～スラップアップパーティー～"
                         FontWeight="Bold"
                         Foreground="{DynamicResource ColorBrush3}"
                         Margin="5"/>
@@ -74,7 +74,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="0">
                                     <Border
-                                        Height="1"
+                                        Height="0"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -90,7 +90,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="1">
                                     <Border
-                                        Height="1"
+                                        Height="0"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -106,7 +106,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="2">
                                     <Border
-                                        Height="3"
+                                        Height="2"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -122,7 +122,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="3">
                                     <Border
-                                        Height="2"
+                                        Height="8"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -154,7 +154,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="5">
                                     <Border
-                                        Height="17"
+                                        Height="13"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -170,7 +170,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="6">
                                     <Border
-                                        Height="3"
+                                        Height="5"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -186,7 +186,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="7">
                                     <Border
-                                        Height="0"
+                                        Height="2"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -202,7 +202,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="8">
                                     <Border
-                                        Height="1"
+                                        Height="0"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -218,7 +218,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="9">
                                     <Border
-                                        Height="1"
+                                        Height="0"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -241,7 +241,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="20"
-                                Text="Rank 7534"
+                                Text="Rank 8743"
                                 Foreground="#ffffff"
                                 Margin="8"/>
                         </StackPanel>
@@ -254,7 +254,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="18"
-                                Text="放送开始 2010-05-01"
+                                Text="放送开始 2009-04-03"
                                 Foreground="#92dcff"
                                 Margin="10"/>
                         </StackPanel>
@@ -262,7 +262,7 @@
                     <local:MyTextButton 
                                 Margin="4,5,0,0" Text="查看Bangumi"
                         EventType="打开网页"
-                        EventData="https://bgm.tv/subject/13133"/>
+                        EventData="https://bgm.tv/subject/1593"/>
                 </StackPanel>
             </Grid>
             <Line X1="0"
@@ -275,7 +275,9 @@
             <StackPanel>
                 <TextBlock
                     FontSize="13"
-                    Text="来自外太空的黑洞飞船在宇宙中失控，到处乱撞，结果高速地从地球边缘擦过，让地球快速旋转起来，导致日夜快速更替，众羊们和灰太狼在不知情的情况下快速地过着每一天。众羊们快速长大，而灰太狼和红太狼在快速地变老，等到潜入羊村准备抓羊时才发现自己已经变成了一个老头，众羊轻易就将他打败。 　懒羊羊偶然发现几个梦成真了，便将之当成了一种启示，任何事都按梦中显示的来进行。可现实中却并不如他的梦境一般，原本以为有危险却安然无恙。 可当他自认为安全时，却落入了狼爪。虽然被喜羊羊他们救回，他却仍以为自己身在梦中。"
+                    Text="　　韩国网络游戏公司NEOPLE开发的格斗RPG游戏《地下城与勇士》(《Dungeon and Fighter》)，将制作成TV动画于2009年播出。
+　　阿拉德历981年，在阿拉德大陆上，卡赞的诅咒之光降临到了全大陆上……主人公巴隆也因为这个诅咒，一只胳膊“鬼化”变形。他和一把偶然碰到的剑、以及依附在剑上的精灵罗克希一起，为了解开诅咒而开始了苦难之旅。在旅途中碰上了各种各样的伙伴们，他们的奇妙即将开始……
+"
                     Margin="10"
                     TextWrapping="Wrap"
                     Height="90"/>
