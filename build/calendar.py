@@ -1,5 +1,6 @@
 from tool import gett, savef, y, BUILD_VERSION, logs_add, BUILD_TIME
 from .calendar_week import calendar_week_get
+from .about import about_get
 
 import json
 import re
@@ -29,7 +30,8 @@ def calendar_build(json_data):
         y(gett('calendar-today')\
         .replace('{{style}}',s)\
         .replace('{{title-date}}',f'{year}/{month}/{day}')\
-        .replace('{{week}}',calendar_week_get(json_data, homepage=True)))
+        .replace('{{week}}',calendar_week_get(json_data, homepage=True))
+        .replace('{{about}}',about_get()))
     )
     logs_add('calendar','save_file Custom.xaml','Success')
     savef('calendar_all.json',json.dumps(

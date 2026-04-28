@@ -1,6 +1,5 @@
 from .calendar import calendar_build
 from .anime_rank import anime_rank_build
-from .about import about_build
 from .html import html_build
 from .random import random_build
 from tool import savef, BUILD_VERSION, savefb, gettb, logs_add, logs_result, gett, VERSION
@@ -19,7 +18,6 @@ def build():
     calendar_build(json_data)
     anime_rank_build()
     random_build()
-    about_build()
     html_build()
     print('init - 复制图片中')
     for imagename in (
