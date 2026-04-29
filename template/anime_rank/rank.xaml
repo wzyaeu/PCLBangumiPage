@@ -1,1 +1,1 @@
-{{item}}
+<StackPanel Margin="0,2">{{item}}</StackPanel>
