@@ -53,7 +53,7 @@ def random_build():
         .replace('{{score-9}}', s(data, 9))\
         .replace('{{score-10}}', s(data, 10))\
         .replace('{{rank}}', str(data['rating']['rank']))\
-        .replace('{{start}}', data['date'])\
+        .replace('{{start}}', str((lambda x: '未放送' if x else x)(data['date'])))\
         .replace('{{info}}', data['summary'])\
         .replace('{{link}}', 'https://bgm.tv/subject/'+str(data['id']))
     )
