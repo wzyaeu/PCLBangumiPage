@@ -34,14 +34,14 @@
                     <ColumnDefinition Width="2*"/>
                 </Grid.ColumnDefinitions>
                 <local:MyImage
-                    Source="https://lain.bgm.tv/r/800/pic/cover/l/8c/2b/64095_UR997.jpg"
+                    Source="https://lain.bgm.tv/r/800/pic/cover/l/7b/5f/195843_5ZUxt.jpg"
                     Grid.Column="0"/>
                 <StackPanel Grid.Column="1"
                             Margin="5">
                     <TextBlock
                         FontSize="25"
-                        Text="小姐与流浪汉 / Lady and the Tramp"
-                        ToolTip="小姐与流浪汉 / Lady and the Tramp"
+                        Text="皇帝圣印战记 / グランクレスト戦記"
+                        ToolTip="皇帝圣印战记 / グランクレスト戦記"
                         FontWeight="Bold"
                         Foreground="{DynamicResource ColorBrush3}"
                         Margin="5"/>
@@ -52,7 +52,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="20"
-                                Text="Score 6.9"
+                                Text="Score 5.1"
                                 Foreground="#ffffff"
                                 Margin="8,8,0,0"/>
                             <Grid Margin="10"
@@ -90,7 +90,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="1">
                                     <Border
-                                        Height="2"
+                                        Height="0"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -106,7 +106,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="2">
                                     <Border
-                                        Height="13"
+                                        Height="1"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -122,7 +122,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="3">
                                     <Border
-                                        Height="18"
+                                        Height="5"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -138,7 +138,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="4">
                                     <Border
-                                        Height="11"
+                                        Height="13"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -154,7 +154,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="5">
                                     <Border
-                                        Height="4"
+                                        Height="17"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -170,7 +170,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="6">
                                     <Border
-                                        Height="0"
+                                        Height="8"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -186,7 +186,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="7">
                                     <Border
-                                        Height="0"
+                                        Height="2"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -202,7 +202,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="8">
                                     <Border
-                                        Height="0"
+                                        Height="1"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -218,7 +218,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="9">
                                     <Border
-                                        Height="0"
+                                        Height="1"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -241,7 +241,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="20"
-                                Text="Rank 2873"
+                                Text="Rank 9534"
                                 Foreground="#ffffff"
                                 Margin="8"/>
                         </StackPanel>
@@ -262,7 +262,7 @@
                     <local:MyTextButton 
                                 Margin="4,5,0,0" Text="查看Bangumi"
                         EventType="打开网页"
-                        EventData="https://bgm.tv/subject/64095"/>
+                        EventData="https://bgm.tv/subject/195843"/>
                 </StackPanel>
             </Grid>
             <Line X1="0"
@@ -275,7 +275,15 @@
             <StackPanel>
                 <TextBlock
                     FontSize="13"
-                    Text="       是迪斯尼所出品的第15部经典动画长片，于1955年推出，已距今有五十多年，但至今依然是许多迪斯尼影迷津津乐道的经典佳作。这部作品虽然以狗儿为主角，但爱情故事却表现得如此真挚动人，成为迪斯尼经典动画中令人难忘的佳作。"
+                    Text="“我与骑士提欧的圣印立下契约，并宣誓永远的忠诚”
+孤高魔法师希露卡与流浪骑士提欧。
+两人交换的主从之誓，会为混沌与战乱的大陆带来变革之风吗？
+混沌支配了一切的大陆，阿托拉丹。
+人们因混沌所产生的灾害而胆怯，并被拥有镇压混沌之力“圣印”的君主所守护着。
+但，不知何时起君主们舍弃了“守护人们”这一理念，开始了互相争夺圣印和领土的战乱。
+在此之中，蔑视那些无理念君主的孤高魔法师希露卡，与为了将故乡从苛政中解放而持续修炼之旅的流浪骑士提欧相遇了。
+在接触了提欧理想的希露卡那强硬的策略下，缔结了主从契约的两人，为战乱席卷的大陆带来变革。
+围绕秩序的结晶“皇帝圣印”展开的战记幻想剧，开幕！"
                     Margin="10"
                     TextWrapping="Wrap"
                     Height="90"/>
