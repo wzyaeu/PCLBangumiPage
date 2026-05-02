@@ -34,14 +34,14 @@
                     <ColumnDefinition Width="2*"/>
                 </Grid.ColumnDefinitions>
                 <local:MyImage
-                    Source="https://lain.bgm.tv/r/800/pic/cover/l/7b/5f/195843_5ZUxt.jpg"
+                    Source="https://lain.bgm.tv/r/800/pic/cover/l/23/3d/602059_4j4UW.jpg"
                     Grid.Column="0"/>
                 <StackPanel Grid.Column="1"
                             Margin="5">
                     <TextBlock
                         FontSize="25"
-                        Text="皇帝圣印战记 / グランクレスト戦記"
-                        ToolTip="皇帝圣印战记 / グランクレスト戦記"
+                        Text="航海王 埃鲁巴夫篇 / ONE PIECE エルバフ編"
+                        ToolTip="航海王 埃鲁巴夫篇 / ONE PIECE エルバフ編"
                         FontWeight="Bold"
                         Foreground="{DynamicResource ColorBrush3}"
                         Margin="5"/>
@@ -52,7 +52,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="20"
-                                Text="Score 5.1"
+                                Text="Score 7.8"
                                 Foreground="#ffffff"
                                 Margin="8,8,0,0"/>
                             <Grid Margin="10"
@@ -74,7 +74,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="0">
                                     <Border
-                                        Height="0"
+                                        Height="16"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -90,7 +90,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="1">
                                     <Border
-                                        Height="0"
+                                        Height="4"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -106,7 +106,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="2">
                                     <Border
-                                        Height="1"
+                                        Height="14"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -122,7 +122,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="3">
                                     <Border
-                                        Height="5"
+                                        Height="6"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -138,7 +138,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="4">
                                     <Border
-                                        Height="13"
+                                        Height="6"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -154,7 +154,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="5">
                                     <Border
-                                        Height="17"
+                                        Height="1"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -170,7 +170,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="6">
                                     <Border
-                                        Height="8"
+                                        Height="0"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -186,7 +186,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="7">
                                     <Border
-                                        Height="2"
+                                        Height="0"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -202,7 +202,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="8">
                                     <Border
-                                        Height="1"
+                                        Height="0"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -218,7 +218,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="9">
                                     <Border
-                                        Height="1"
+                                        Height="2"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -241,7 +241,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="20"
-                                Text="Rank 9534"
+                                Text="Rank 786"
                                 Foreground="#ffffff"
                                 Margin="8"/>
                         </StackPanel>
@@ -262,7 +262,7 @@
                     <local:MyTextButton 
                                 Margin="4,5,0,0" Text="查看Bangumi"
                         EventType="打开网页"
-                        EventData="https://bgm.tv/subject/195843"/>
+                        EventData="https://bgm.tv/subject/602059"/>
                 </StackPanel>
             </Grid>
             <Line X1="0"
@@ -275,15 +275,13 @@
             <StackPanel>
                 <TextBlock
                     FontSize="13"
-                    Text="“我与骑士提欧的圣印立下契约，并宣誓永远的忠诚”
-孤高魔法师希露卡与流浪骑士提欧。
-两人交换的主从之誓，会为混沌与战乱的大陆带来变革之风吗？
-混沌支配了一切的大陆，阿托拉丹。
-人们因混沌所产生的灾害而胆怯，并被拥有镇压混沌之力“圣印”的君主所守护着。
-但，不知何时起君主们舍弃了“守护人们”这一理念，开始了互相争夺圣印和领土的战乱。
-在此之中，蔑视那些无理念君主的孤高魔法师希露卡，与为了将故乡从苛政中解放而持续修炼之旅的流浪骑士提欧相遇了。
-在接触了提欧理想的希露卡那强硬的策略下，缔结了主从契约的两人，为战乱席卷的大陆带来变革。
-围绕秩序的结晶“皇帝圣印”展开的战记幻想剧，开幕！"
+                    Text="从艾格赫德惊险逃脱后，草帽一伙将航向传说中的目的地。与强大的巨兵海贼团同行，他们终于抵达了期待已久的巨人之国——埃鲁巴夫。
+与巨人的全新邂逅，以及期盼已久的团聚即将展开。一场宏大的新篇章就此开启，草帽一伙将踏上与以往截然不同的冒险之旅，一切只为追求终极宝藏——「One Piece」！
+
+
+
+[简介原文]
+麦わらの一味は未来島エッグヘッドから脱出し、巨兵海賊団とともに念願の巨人の島・エルバフに辿り着く。新たな巨人との出会い、そして待望の再会――、規格外の新たな冒険が動き出す！〝ひとつなぎの大秘宝〟(ワンピース)を巡る海洋冒険ロマン!!"
                     Margin="10"
                     TextWrapping="Wrap"
                     Height="90"/>
