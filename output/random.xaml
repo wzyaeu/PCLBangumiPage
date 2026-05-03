@@ -34,14 +34,14 @@
                     <ColumnDefinition Width="2*"/>
                 </Grid.ColumnDefinitions>
                 <local:MyImage
-                    Source="https://lain.bgm.tv/r/800/pic/cover/l/23/3d/602059_4j4UW.jpg"
+                    Source="https://lain.bgm.tv/r/800/pic/cover/l/37/5f/251987_IlI03.jpg"
                     Grid.Column="0"/>
                 <StackPanel Grid.Column="1"
                             Margin="5">
                     <TextBlock
                         FontSize="25"
-                        Text="航海王 埃鲁巴夫篇 / ONE PIECE エルバフ編"
-                        ToolTip="航海王 埃鲁巴夫篇 / ONE PIECE エルバフ編"
+                        Text="K SEVEN STORIES Episode4「Lost Small World ∼牢笼的彼端∼」 / K SEVEN STORIES Episode 4「Lost Small World ～檻の向こうに～」"
+                        ToolTip="K SEVEN STORIES Episode4「Lost Small World ∼牢笼的彼端∼」 / K SEVEN STORIES Episode 4「Lost Small World ～檻の向こうに～」"
                         FontWeight="Bold"
                         Foreground="{DynamicResource ColorBrush3}"
                         Margin="5"/>
@@ -52,7 +52,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="20"
-                                Text="Score 7.8"
+                                Text="Score 6.4"
                                 Foreground="#ffffff"
                                 Margin="8,8,0,0"/>
                             <Grid Margin="10"
@@ -74,7 +74,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="0">
                                     <Border
-                                        Height="16"
+                                        Height="1"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -90,7 +90,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="1">
                                     <Border
-                                        Height="4"
+                                        Height="0"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -106,7 +106,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="2">
                                     <Border
-                                        Height="14"
+                                        Height="4"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -122,7 +122,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="3">
                                     <Border
-                                        Height="6"
+                                        Height="15"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -138,7 +138,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="4">
                                     <Border
-                                        Height="6"
+                                        Height="23"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -154,7 +154,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="5">
                                     <Border
-                                        Height="1"
+                                        Height="5"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -218,7 +218,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="9">
                                     <Border
-                                        Height="2"
+                                        Height="0"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -241,7 +241,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="20"
-                                Text="Rank 786"
+                                Text="Rank 5275"
                                 Foreground="#ffffff"
                                 Margin="8"/>
                         </StackPanel>
@@ -262,7 +262,7 @@
                     <local:MyTextButton 
                                 Margin="4,5,0,0" Text="查看Bangumi"
                         EventType="打开网页"
-                        EventData="https://bgm.tv/subject/602059"/>
+                        EventData="https://bgm.tv/subject/251987"/>
                 </StackPanel>
             </Grid>
             <Line X1="0"
@@ -275,13 +275,7 @@
             <StackPanel>
                 <TextBlock
                     FontSize="13"
-                    Text="从艾格赫德惊险逃脱后，草帽一伙将航向传说中的目的地。与强大的巨兵海贼团同行，他们终于抵达了期待已久的巨人之国——埃鲁巴夫。
-与巨人的全新邂逅，以及期盼已久的团聚即将展开。一场宏大的新篇章就此开启，草帽一伙将踏上与以往截然不同的冒险之旅，一切只为追求终极宝藏——「One Piece」！
-
-
-
-[简介原文]
-麦わらの一味は未来島エッグヘッドから脱出し、巨兵海賊団とともに念願の巨人の島・エルバフに辿り着く。新たな巨人との出会い、そして待望の再会――、規格外の新たな冒険が動き出す！〝ひとつなぎの大秘宝〟(ワンピース)を巡る海洋冒険ロマン!!"
+                    Text="覆面作家集団「GoRA」が原作、GoHandsがアニメーション制作を担当し、2012年にテレビシリーズが放送された人気アニメ「K」の劇場版。小説や漫画で発表されたストーリーなど、7つの物語を順次アニメ化して公開する「K SEVEN STORIES」のエピソード4で、八田美咲と伏見猿比古の中学生時代を描く。学校で仲間はずれにされていた八田美咲は、一匹狼の同級生・伏見猿比古に興味を持つ。屈折した性格の伏見だったが、その人格形成には空家庭環境や父・仁希の影響があった。八田は持ち前の明るさとガッツで伏見との距離を縮めていき、やがて伏見が心を許す唯一の存在となっていく。「K SEVEN STORIES」の一作でもあるスピンオフショートムービー「ザ・アイドルK」が同時上映。"
                     Margin="10"
                     TextWrapping="Wrap"
                     Height="90"/>
