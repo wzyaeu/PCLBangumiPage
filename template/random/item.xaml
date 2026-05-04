@@ -1,0 +1,49 @@
+<local:MyCard Style="{StaticResource RankItemCard}">
+    <Grid Style="{StaticResource RankItemGrid}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <local:MyImage Style="{StaticResource RankItemImage}"
+                Source="{{pic}}"
+                Grid.Column="0"/>
+        <StackPanel Style="{StaticResource RankItemMainStackPanel}"
+                Grid.Column="1">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Style="{StaticResource RankItemHeaderStackPanel}"
+                        Grid.Column="0">
+                    <Border Style="{StaticResource RankItemRankBorder}" CornerRadius="7,0,0,7">
+                        <StackPanel Style="{StaticResource RankItemRankStackPanel}">
+                            <TextBlock Style="{StaticResource RankItemRankLabel}"
+                                    Text="Rank"/>
+                            <TextBlock Style="{StaticResource RankItemRankValue}"
+                                    Text="{{rank}}"/>
+                        </StackPanel >
+                    </Border>
+                    <Border Style="{StaticResource RankItemScoreBorder}">
+                        <StackPanel Style="{StaticResource RankItemScoreStackPanel}">
+                            <TextBlock Style="{StaticResource RankItemScoreLabel}"
+                                    Text="评分"/>
+                            <TextBlock Style="{StaticResource RankItemScoreValue}"
+                                    Text="{{score}}"/>
+                        </StackPanel >
+                    </Border>
+                </StackPanel >
+                <TextBlock Style="{StaticResource RankItemTitleText}"
+                        Grid.Column="1"
+                        Text="{{name-cn}} / {{name}}"
+                        ToolTip="{{name-cn}} / {{name}}"/>
+            </Grid>
+            <StackPanel Style="{StaticResource RankItemTagsStackPanel}">
+                <WrapPanel Style="{StaticResource RankItemTagsWrapPanel}">{{tag}}</WrapPanel>
+                <local:MyTextButton Text="查看Bangumi"
+                        EventType="打开网页"
+                        EventData="{{link}}"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</local:MyCard>
