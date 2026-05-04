@@ -18,7 +18,7 @@
                         Grid.Column="0">
                     <Border Style="{StaticResource RankItemNoBorder}">
                         <TextBlock Style="{StaticResource RankItemNoText}"
-                                Text="No. {{p}}"/>
+                                Text="{{p}}"/>
                     </Border>
                     <Border Style="{StaticResource RankItemRankBorder}">
                         <StackPanel Style="{StaticResource RankItemRankStackPanel}">

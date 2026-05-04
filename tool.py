@@ -12,7 +12,7 @@ BUILD_VERSION = secrets.token_hex(4)
 BUILD_TIME = int(time.time())
 
 HEADER = {
-    'user-agent': 'wzyaeu/PclBangumiPage'
+    'user-agent': 'wzyaeu/pcl-bangumi-page (https://github.com/wzyaeu/PCLBangumiPage)'
 }
 
 logs: dict[str,list[tuple[str,Any]]] = {}
@@ -70,4 +70,4 @@ def copy_overwrite(src_dir: str, dst_dir: str):
             shutil.copy2(src_file, dst_file)
 
 def y(s):
-    return re.sub('> +<','><',re.sub('\n',' ',re.sub('\n +',' ',s)))
+    return re.sub('" +','" ',re.sub('> +<','><',re.sub('\n',' ',s)))

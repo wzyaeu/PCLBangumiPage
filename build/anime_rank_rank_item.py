@@ -8,7 +8,7 @@ def anime_rank_rank_item_get(json_data, i):
 
     return t\
     .replace('{{pic}}', json_data['images']['common'])\
-    .replace('{{p}}', str(i))\
+    .replace('{{p}}', 'No. '+str(i))\
     .replace('{{rank}}', str(json_data['rating']['rank']))\
     .replace('{{score}}', str(json_data['rating']['score']))\
     .replace('{{name-cn}}', json_data['name_cn'] if json_data['name_cn'] != '' else json_data['name'])\
