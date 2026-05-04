@@ -34,14 +34,14 @@
                     <ColumnDefinition Width="2*"/>
                 </Grid.ColumnDefinitions>
                 <local:MyImage
-                    Source="https://lain.bgm.tv/r/800/pic/cover/l/3a/74/20928_nGJ6t.jpg"
+                    Source="https://lain.bgm.tv/r/800/pic/cover/l/37/5f/251987_IlI03.jpg"
                     Grid.Column="0"/>
                 <StackPanel Grid.Column="1"
                             Margin="5">
                     <TextBlock
                         FontSize="25"
-                        Text="樱花大战 活动写真 / サクラ大戦 活動写真"
-                        ToolTip="樱花大战 活动写真 / サクラ大戦 活動写真"
+                        Text="K SEVEN STORIES Episode4「Lost Small World ∼牢笼的彼端∼」 / K SEVEN STORIES Episode 4「Lost Small World ～檻の向こうに～」"
+                        ToolTip="K SEVEN STORIES Episode4「Lost Small World ∼牢笼的彼端∼」 / K SEVEN STORIES Episode 4「Lost Small World ～檻の向こうに～」"
                         FontWeight="Bold"
                         Foreground="{DynamicResource ColorBrush3}"
                         Margin="5"/>
@@ -52,7 +52,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="20"
-                                Text="Score 6.6"
+                                Text="Score 6.4"
                                 Foreground="#ffffff"
                                 Margin="8,8,0,0"/>
                             <Grid Margin="10"
@@ -74,7 +74,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="0">
                                     <Border
-                                        Height="0"
+                                        Height="1"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -106,7 +106,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="2">
                                     <Border
-                                        Height="9"
+                                        Height="4"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -122,7 +122,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="3">
                                     <Border
-                                        Height="17"
+                                        Height="15"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -138,7 +138,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="4">
                                     <Border
-                                        Height="16"
+                                        Height="23"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -170,7 +170,7 @@
                                     VerticalAlignment="Bottom"
                                     Grid.Column="6">
                                     <Border
-                                        Height="1"
+                                        Height="0"
                                         Background="#ffe3b7"
                                         CornerRadius="5"
                                         Margin="2,0">
@@ -241,7 +241,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="20"
-                                Text="Rank 3845"
+                                Text="Rank 5275"
                                 Foreground="#ffffff"
                                 Margin="8"/>
                         </StackPanel>
@@ -254,7 +254,7 @@
                         <StackPanel>
                             <TextBlock
                                 FontSize="18"
-                                Text="放送开始 2001-12-22"
+                                Text="放送开始 未放送"
                                 Foreground="#92dcff"
                                 Margin="10"/>
                         </StackPanel>
@@ -262,7 +262,7 @@
                     <local:MyTextButton 
                                 Margin="4,5,0,0" Text="查看Bangumi"
                         EventType="打开网页"
-                        EventData="https://bgm.tv/subject/20928"/>
+                        EventData="https://bgm.tv/subject/251987"/>
                 </StackPanel>
             </Grid>
             <Line X1="0"
@@ -275,8 +275,7 @@
             <StackPanel>
                 <TextBlock
                     FontSize="13"
-                    Text="由《樱花大战》改编的动画电影《樱花大战：活动写真》。内容讲述帝都花组队长大神一郎，远赴法国担任巴黎(巴里)华击团队长之后，帝都花组迎来了新团员——前星组队长拉奇特(ラチェット・アルタイル、Ratchet Altair)，拉奇特的个人主义作风，与花组讲求合作的做法形成强烈对比。剧情最大主线，在于军方图以新研发的无人驾驶人型蒸汽机取代花组，令花组陷入了解散危机。
-《樱花大战：活动写真》曾经在台湾戏院公映，据称票房不错，超过《莎木》的成绩好几倍。"
+                    Text="覆面作家集団「GoRA」が原作、GoHandsがアニメーション制作を担当し、2012年にテレビシリーズが放送された人気アニメ「K」の劇場版。小説や漫画で発表されたストーリーなど、7つの物語を順次アニメ化して公開する「K SEVEN STORIES」のエピソード4で、八田美咲と伏見猿比古の中学生時代を描く。学校で仲間はずれにされていた八田美咲は、一匹狼の同級生・伏見猿比古に興味を持つ。屈折した性格の伏見だったが、その人格形成には空家庭環境や父・仁希の影響があった。八田は持ち前の明るさとガッツで伏見との距離を縮めていき、やがて伏見が心を許す唯一の存在となっていく。「K SEVEN STORIES」の一作でもあるスピンオフショートムービー「ザ・アイドルK」が同時上映。"
                     Margin="10"
                     TextWrapping="Wrap"
                     Height="90"/>
