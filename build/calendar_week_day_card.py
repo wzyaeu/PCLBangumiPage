@@ -1,4 +1,4 @@
-from tool import gett, logs_add
+from tool import gett, logs_add, escape_xaml
 
 def calendar_week_day_card_get(json_data, i):
     print(f'calendar_week_day_card - 获取番剧卡片列表 - {i}')
@@ -42,10 +42,10 @@ def calendar_week_day_card_get(json_data, i):
             .replace('{{score-1}}','--')
 
         itemt = itemt\
-            .replace('{{name-cn}}', item['name_cn'] if item['name_cn'] != '' else item['name'])
+            .replace('{{name-cn}}', escape_xaml(item['name_cn'] if item['name_cn'] != '' else item['name']))
         
         itemt = itemt\
-            .replace('{{name}}',item['name'])\
+            .replace('{{name}}',escape_xaml(item['name']))\
             .replace('{{pic}}',item['images']['common'] if item.get('images',None) != None else 'https://pbp.kaphia.qzz.io/image_placeholder_1_1.png')\
             .replace('{{link}}',item['url'])
 

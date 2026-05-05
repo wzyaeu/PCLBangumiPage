@@ -1,4 +1,4 @@
-from tool import gett, HEADER
+from tool import gett, HEADER, escape_xaml
 from .anime_rank_rank_item_tag import anime_rank_rank_item_tag_get
 
 import requests
@@ -21,8 +21,8 @@ def random_item_get(rs):
         .replace('{{pic}}', data['images']['common'])\
         .replace('{{rank}}', str(data['rating']['rank']))\
         .replace('{{score}}', str(data['rating']['score']))\
-        .replace('{{name-cn}}', data['name_cn'] if data['name_cn'] != '' else data['name'])\
-        .replace('{{name}}', data['name'])\
+        .replace('{{name-cn}}', escape_xaml(data['name_cn'] if data['name_cn'] != '' else data['name']))\
+        .replace('{{name}}', escape_xaml(data['name']))\
         .replace('{{tag}}', anime_rank_rank_item_tag_get(data['tags'][:5]))\
         .replace('{{link}}', 'https://bgm.tv/subject/'+str(data['id']))
 

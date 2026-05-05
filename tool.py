@@ -69,5 +69,14 @@ def copy_overwrite(src_dir: str, dst_dir: str):
             dst_file = os.path.join(target_dir, file)
             shutil.copy2(src_file, dst_file)
 
+def escape_xaml(text):
+    return (
+        text.replace("&", "&amp;")
+             .replace("<", "&lt;")
+             .replace(">", "&gt;")
+             .replace('"', "&quot;")
+             .replace("'", "&apos;")
+    )
+
 def y(s):
     return re.sub('" +','" ',re.sub('> +<','><',re.sub('\n',' ',s)))

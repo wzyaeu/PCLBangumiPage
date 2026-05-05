@@ -1,4 +1,4 @@
-from tool import gett, logs_add
+from tool import gett, logs_add, escape_xaml
 from .calendar_week_day_card import calendar_week_day_card_get
 
 def calendar_week_day_get(json_data, i, today):
@@ -11,6 +11,6 @@ def calendar_week_day_get(json_data, i, today):
     else:
         t = gett('calendar/week/day')
     return t\
-    .replace('{{text}}',week_map[i])\
+    .replace('{{text}}',escape_xaml(week_map[i]))\
     .replace('{{card}}',calendar_week_day_card_get(json_data, i))\
     # .replace('{{id}}',str(i)) # day.reserved
