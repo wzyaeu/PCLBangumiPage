@@ -6,7 +6,7 @@
 
 ## 最新构建
 
-**构建版本**：a5323054
+**构建版本**：e02d46be
 
 ↑ 根据此条判断是否为最新版本！
 
@@ -65,7 +65,7 @@
 | anime_rank_rank | build_page | offset: 25 count: 25 |
 | anime_rank_rank | build_page | offset: 50 count: 25 |
 | anime_rank_rank | build_page | offset: 75 count: 25 |
-| random | start | random_ids: [107, 249, 406, 343, 78] |
+| random | start | random_ids: [114, 11, 340, 234, 431] |
 | random | save_file random.json | Success |
 | random | save_file random.xaml | Success |
 | html | save_file index.html | Success |
