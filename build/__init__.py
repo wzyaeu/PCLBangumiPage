@@ -30,17 +30,3 @@ def build():
     bit_main_buildlog = gett('build_information/main/build_log','md')
     resources['logo.png'] = 'https://bgm.tv/img/logo_riff.png'
     save_resources()
-    savef('build_info.md',bit_main\
-          .replace('{{build_version}}',BUILD_VERSION)\
-          .replace('{{build_log}}',\
-          '\n'.join([
-                '\n'.join([
-                    bit_main_buildlog
-                    .replace('{{region}}',region) 
-                    .replace('{{name}}',name) 
-                    .replace('{{info}}',str(result)) 
-                    for name, result in data
-                ]) 
-                for region, data in logs_result().items()
-          ]))
-    )
