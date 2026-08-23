@@ -26,7 +26,5 @@ def build():
         savefb(f'resources/{imagename}',gettb(f'images/{imagename}'))
         logs_add('init','copy_image',imagename)
     logs_add('init','build_information','start')
-    bit_main = gett('build_information/main','md')
-    bit_main_buildlog = gett('build_information/main/build_log','md')
     resources['logo.png'] = 'https://bgm.tv/img/logo_riff.png'
     save_resources()
