@@ -1,0 +1,4 @@
+<WrapPanel Margin="0,2">
+        {{card}}
+</WrapPanel>
+

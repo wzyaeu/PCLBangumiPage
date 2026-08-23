@@ -1,0 +1,6 @@
+{{lbtn}}
+<TextBlock Margin="8"
+                       FontSize="15"
+                       VerticalAlignment="Center"
+                       Text="第 {{p}} / {{a}} 页"/>
+{{rbtn}}

@@ -1,0 +1,93 @@
+<local:MyCard Margin="0,5">
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <local:MyImage Height="100"
+                       Width="100"
+                       FallbackSource="https://bangumi.p.kaphia.qzz.io/resources/image_placeholder_1_1.png"
+                       Source="{{pic}}"
+                       Grid.Column="0"/>
+        <StackPanel Margin="3"
+                    Grid.Column="1">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Orientation="Horizontal"
+                            Margin="1"
+                            Grid.Column="0">
+                    <Border VerticalAlignment="Center"
+                            Height="25"
+                            Background="#2ac2d3"
+                            CornerRadius="7,0,0,7">
+                        <TextBlock VerticalAlignment="Center"
+                                   HorizontalAlignment="Center"
+                                   FontWeight="Bold"
+                                   Margin="10,2,10,2"
+                                   FontSize="14"
+                                   Foreground="{DynamicResource ColorBrush8}"
+                                   Text="{{p}}"/>
+                    </Border>
+                    <Border VerticalAlignment="Center"
+                            Height="25"
+                            Background="#00b0ff"
+                            CornerRadius="0">
+                        <StackPanel Orientation="Horizontal"
+                                    Margin="4"
+                                    VerticalAlignment="Bottom">
+                            <TextBlock VerticalAlignment="Bottom"
+                                       FontSize="11"
+                                       Foreground="{DynamicResource ColorBrush8}"
+                                       Text="Rank排名"/>
+                            <TextBlock FontSize="16"
+                                       Margin="2,-1,0,0"
+                                       Foreground="{DynamicResource ColorBrush8}"
+                                       Text="{{rank}}"/>
+                        </StackPanel>
+                    </Border>
+                    <Border VerticalAlignment="Center"
+                            Height="25"
+                            Background="#ffb53d"
+                            CornerRadius="0,7,7,0">
+                        <StackPanel Orientation="Horizontal"
+                                    Margin="4"
+                                    VerticalAlignment="Bottom">
+                            <TextBlock VerticalAlignment="Bottom"
+                                       FontSize="11"
+                                       Foreground="{DynamicResource ColorBrush8}"
+                                       Text="评分"/>
+                            <TextBlock FontSize="16"
+                                       Margin="2,-1,0,0"
+                                       Foreground="{DynamicResource ColorBrush8}"
+                                       Text="{{score}}"/>
+                        </StackPanel>
+                    </Border>
+                </StackPanel>
+                <TextBlock Margin="4"
+                           FontWeight="Bold"
+                           FontSize="25"
+                           Foreground="{DynamicResource ColorBrush3}"
+                           Grid.Column="1"
+                           Text="{{name-cn}} / {{name}}"
+                           ToolTip="{{name-cn}} / {{name}}"/>
+            </Grid>
+            <StackPanel Margin="1">
+                <WrapPanel Height="25">{{tag}}</WrapPanel>
+                <StackPanel Orientation="Horizontal">
+                    <local:MyTextButton Text="复制"
+                                        Margin="5"
+                                        EventType="复制文本"
+                                        ToolTip="复制名称，不复制译名"
+                                        EventData="{{name}}"/>
+                    <local:MyTextButton Text="查看"
+                                        Margin="5"
+                                        EventType="打开网页"
+                                        EventData="{{link}}"/>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</local:MyCard>

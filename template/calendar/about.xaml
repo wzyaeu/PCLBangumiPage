@@ -1,0 +1,65 @@
+<local:MyCard Margin="0,5">
+    <StackPanel>
+        <Border Background="{DynamicResource ColorBrush4}"
+                CornerRadius="5,5,0,0"
+                Height="100">
+            <StackPanel Margin="16"
+                        HorizontalAlignment="Center">
+                <TextBlock FontSize="32"
+                           Foreground="{DynamicResource ColorBrush7}"
+                           Text="Bangumi 番剧主页"
+                           HorizontalAlignment="Center"/>
+                <TextBlock Margin="2,4,0,0"
+                           FontSize="18"
+                           Foreground="{DynamicResource ColorBrush6}"
+                           Text="By wzyaeu/kaphia | 构建版本 {{gv}}"
+                           HorizontalAlignment="Center"/>
+            </StackPanel>
+        </Border>
+        <StackPanel  Margin="5">
+            <StackPanel  Margin="1"
+                         Orientation="Horizontal"
+                         HorizontalAlignment="Center">
+
+                <local:MyIconTextButton
+                    ColorType="Highlight"
+                    Margin="2"
+                    Height="35"
+                    VerticalAlignment="Center"
+                    Text="Github主仓库"
+                    EventType="打开网页"
+                    EventData="https://github.com/wzyaeu/PCLBangumiPage"
+                    LogoScale="1"
+                    Logo="M512 12.64c-282.752 0-512 229.216-512 512 0 226.208 146.72 418.144 350.144 485.824 25.6 4.736 35.008-11.104 35.008-24.64 0-12.192-0.48-52.544-0.704-95.328-142.464 30.976-172.512-60.416-172.512-60.416-23.296-59.168-56.832-74.912-56.832-74.912-46.464-31.776 3.52-31.136 3.52-31.136 51.392 3.616 78.464 52.768 78.464 52.768 45.664 78.272 119.776 55.648 148.992 42.56 4.576-33.088 17.856-55.68 32.512-68.48-113.728-12.928-233.28-56.864-233.28-253.024 0-55.904 20-101.568 52.768-137.44-5.312-12.896-22.848-64.96 4.96-135.488 0 0 43.008-13.76 140.832 52.48 40.832-11.36 84.64-17.024 128.16-17.248 43.488 0.192 87.328 5.888 128.256 17.248 97.728-66.24 140.64-52.48 140.64-52.48 27.872 70.528 10.336 122.592 5.024 135.488 32.832 35.84 52.704 81.536 52.704 137.44 0 196.64-119.776 239.936-233.792 252.64 18.368 15.904 34.72 47.04 34.72 94.816 0 68.512-0.608 123.648-0.608 140.512 0 13.632 9.216 29.6 35.168 24.576 203.328-67.776 349.856-259.616 349.856-485.76 0-282.784-229.248-512-512-512z"/>
+                <local:MyIconTextButton
+                    Margin="2"
+                    Height="35"
+                    VerticalAlignment="Center"
+                    Text="查看最新构建版本"
+                    EventType="打开网页"
+                    EventData="https://github.com/wzyaeu/PCLBangumiPage/blob/main/output/build_info.md#最新构建"
+                    LogoScale="1"
+                    Logo="M512 938.666667c235.648 0 426.666667-191.018667 426.666667-426.666667S747.648 85.333333 512 85.333333 85.333333 276.352 85.333333 512s191.018667 426.666667 426.666667 426.666667z m0 85.333333C229.248 1024 0 794.752 0 512S229.248 0 512 0s512 229.248 512 512-229.248 512-512 512z m42.666667-486.869333V298.538667C554.666667 275.328 535.552 256 512 256c-23.722667 0-42.666667 19.029333-42.666667 42.538667v256.256a41.984 41.984 0 0 0 12.202667 29.866666l121.258667 121.258667a42.368 42.368 0 0 0 60.032-0.298667 42.666667 42.666667 0 0 0 0.298666-60.032L554.666667 537.130667z"/>
+            </StackPanel>
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Margin="0,5"
+              Title="特别鸣谢">
+    <StackPanel Margin="15,40,15,15">
+        <local:MyListItem
+            Margin="2"
+            Title="Bangumi"
+            Info="提供了番剧信息及图片，是本项目的基石！"
+            EventType="打开网页"
+            EventData="https://bgm.tv/"
+            Type="Clickable"/>
+        <local:MyListItem
+            Margin="2"
+            Title="Wzyaeu / Kaphia"
+            Info="主页制作团"
+            EventType="打开帮助"
+            EventData="https://p.kaphia.qzz.io/personalpage.json"
+            Type="Clickable"/>
+    </StackPanel>
+</local:MyCard>

@@ -1,0 +1,33 @@
+[
+  {
+    "title": "关于bangumi被墙",
+    "date": "2026/6/15",
+    "tip": true,
+    "info": [
+      {
+        "type": "text",
+        "data": "最近bangumi被ban，国内已经无法访问。但是本项目是由github acion（在外网）更新的所以基本无影响，仅图源通过外网下载到仓库内。"
+      },
+      {
+        "type": "text",
+        "data": "可能在网页中查看bangumi无法访问。"
+      }
+    ]
+  },
+  {
+    "title": "主页讨论贴",
+    "date": "2026/7/3",
+    "tip": true,
+    "info": [
+      {
+        "type": "text",
+        "data": "如果对主页有修改意见与反馈的话可以去#8834讨论贴说明"
+      },
+      {
+        "type": "link",
+        "data": "打开讨论贴",
+        "url": "https://github.com/Meloong-Git/PCL/discussions/8834"
+      }
+    ]
+  }
+]

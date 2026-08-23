@@ -1,0 +1,4 @@
+<TextBlock Margin="2"
+           FontSize="13"
+           Text="{{text}}"
+           ToolTip="{{text}}: {{count}}" />
