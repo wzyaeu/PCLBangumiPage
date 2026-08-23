@@ -1,4 +1,4 @@
-name: 日常获取更新 & 自动部署
+name: 更新页面
 
 on:
   schedule:
