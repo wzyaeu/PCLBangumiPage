@@ -48,7 +48,7 @@
         <local:MyListItem
             Margin="2"
             Title="Wzyaeu / Kaphia"
-            Info="主页制作团"
+            Info="主页制作团，本项目是作者写的最大的石山"
             EventType="打开帮助"
             EventData="https://p.kaphia.qzz.io/personalpage.json"
             Type="Clickable"/>
