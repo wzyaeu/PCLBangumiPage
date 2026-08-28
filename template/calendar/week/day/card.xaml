@@ -24,12 +24,12 @@
                         Orientation="Horizontal">
                 <TextBlock FontSize="9"
                            Margin="2,0,0,0"
-                           Foreground="{DynamicResource ColorBrush8}"
+                           Foreground="#ffffff"
                            VerticalAlignment="Bottom"
                            Text="Rank排名"/>
                 <TextBlock FontSize="15"
                            Margin="3,0,0,0"
-                           Foreground="{DynamicResource ColorBrush8}"
+                           Foreground="#ffffff"
                            Text="{{rank}}"/>
             </StackPanel>
         </Border>
@@ -45,7 +45,7 @@
                         Orientation="Horizontal">
                 <TextBlock VerticalAlignment="Bottom"
                            FontSize="11"
-                           Foreground="{DynamicResource ColorBrush8}"
+                           Foreground="#ffffff"
                            Text="评分 {{score}}"
                            ToolTip="{{score-all}} 人评分&#xa;&#xa;详细评级&#xa;10: {{score-10}}&#xa;9: {{score-9}}&#xa;8: {{score-8}}&#xa;7: {{score-7}}&#xa;6: {{score-6}}&#xa;5: {{score-5}}&#xa;4: {{score-4}}&#xa;3: {{score-3}}&#xa;2: {{score-2}}&#xa;1: {{score-1}}"/>
             </StackPanel>
@@ -60,7 +60,7 @@
                        FontWeight="Bold"
                        FontSize="15"
                        Height="17"
-                       Foreground="{DynamicResource ColorBrush8}"
+                       Foreground="#ffffff"
                        Text="{{name-cn}}"
                        ToolTip="{{name-cn}} / {{name}}"/>
                 <StackPanel Orientation="Horizontal"

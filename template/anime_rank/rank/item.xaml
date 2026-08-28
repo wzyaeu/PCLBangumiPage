@@ -28,7 +28,7 @@
                                    FontWeight="Bold"
                                    Margin="10,2,10,2"
                                    FontSize="14"
-                                   Foreground="{DynamicResource ColorBrush8}"
+                                   Foreground="#ffffff"
                                    Text="{{p}}"/>
                     </Border>
                     <Border VerticalAlignment="Center"
@@ -40,11 +40,11 @@
                                     VerticalAlignment="Bottom">
                             <TextBlock VerticalAlignment="Bottom"
                                        FontSize="11"
-                                       Foreground="{DynamicResource ColorBrush8}"
+                                       Foreground="#ffffff"
                                        Text="Rank排名"/>
                             <TextBlock FontSize="16"
                                        Margin="2,-1,0,0"
-                                       Foreground="{DynamicResource ColorBrush8}"
+                                       Foreground="#ffffff"
                                        Text="{{rank}}"/>
                         </StackPanel>
                     </Border>
@@ -57,11 +57,11 @@
                                     VerticalAlignment="Bottom">
                             <TextBlock VerticalAlignment="Bottom"
                                        FontSize="11"
-                                       Foreground="{DynamicResource ColorBrush8}"
+                                       Foreground="#ffffff"
                                        Text="评分"/>
                             <TextBlock FontSize="16"
                                        Margin="2,-1,0,0"
-                                       Foreground="{DynamicResource ColorBrush8}"
+                                       Foreground="#ffffff"
                                        Text="{{score}}"/>
                         </StackPanel>
                     </Border>
