@@ -7,7 +7,7 @@
             <TextBlock Margin="5,0,5,0"
                        VerticalAlignment="Center"
                        FontSize="18"
-                       Foreground="{DynamicResource ColorBrush7}"
+                       Foreground="#ffffff"
                        Text="Bangumi 番剧主页"/>
         </Border>
         <TextBlock Margin="10,3,3,3"

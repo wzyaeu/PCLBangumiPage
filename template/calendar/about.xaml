@@ -6,7 +6,7 @@
             <StackPanel Margin="16"
                         HorizontalAlignment="Center">
                 <TextBlock FontSize="32"
-                           Foreground="{DynamicResource ColorBrush7}"
+                           Foreground="#ffffff"
                            Text="Bangumi 番剧主页"
                            HorizontalAlignment="Center"/>
                 <TextBlock Margin="2,4,0,0"
