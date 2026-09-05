@@ -71,21 +71,21 @@
                           Info="查看本周全部放送动漫"
                           EventType="打开帮助"
                           Type="Clickable"
-                          EventData="https://bangumi.p.kaphia.qzz.io/calendar_all.json"/>
+                          EventData="https://bangumi.p.kaphia.top/calendar_all.json"/>
         <local:MyListItem Margin="10,2"
                           Logo="pack://application:,,,/images/Blocks/CommandBlock.png"
                           Title="随机放送"
                           Info="每天随机推番"
                           EventType="打开帮助"
                           Type="Clickable"
-                          EventData="https://bangumi.p.kaphia.qzz.io/random.json"/>
+                          EventData="https://bangumi.p.kaphia.top/random.json"/>
         <local:MyListItem Margin="10,2"
                           Logo="pack://application:,,,/images/Blocks/Anvil.png"
                           Title="番剧排行榜"
                           Info="番剧排行榜榜单"
                           EventType="打开帮助"
                           Type="Clickable"
-                          EventData="https://bangumi.p.kaphia.qzz.io/anime_rank_1.json"/>
+                          EventData="https://bangumi.p.kaphia.top/anime_rank_1.json"/>
     </StackPanel>
 </local:MyCard>
 <Grid Margin="5">

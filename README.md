@@ -10,11 +10,11 @@ PCL Bangumi Page主页仓库。
 
 ### 使用链接
 
-前往`设置->个性化->主页`，输入联网下载地址`bangumi.p.kaphia.qzz.io`。
+前往`设置->个性化->主页`，输入联网下载地址`bangumi.p.kaphia.top`。
 
 ### 帮助页跳转
 
-PCL Bangumi Page 支持使用帮助页跳转，你需要在PCL内设置一个链接为`https://bangumi.p.kaphia.qzz.io/Custom.json`的帮助按钮。
+PCL Bangumi Page 支持使用帮助页跳转，你需要在PCL内设置一个链接为`https://bangumi.p.kaphia.top/Custom.json`的帮助按钮。
 
 ## 协议
 

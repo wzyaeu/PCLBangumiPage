@@ -10,7 +10,7 @@
                 VerticalAlignment="Center"
                 HorizontalAlignment="Center"
                 Source="{{pic}}"
-                FallbackSource="https://bangumi.p.kaphia.qzz.io/resources/image_placeholder_3_4.png"/>
+                FallbackSource="https://bangumi.p.kaphia.top/resources/image_placeholder_3_4.png"/>
         </StackPanel>
         <Border VerticalAlignment="Top"
                 HorizontalAlignment="Right"

@@ -7,7 +7,7 @@
         Text="上一页"
         ColorType="Highlight"
         EventType="打开帮助"
-        EventData="https://bangumi.p.kaphia.qzz.io/anime_rank_{{num}}.json"
+        EventData="https://bangumi.p.kaphia.top/anime_rank_{{num}}.json"
         LogoScale="1"
         Logo="M767.411612 130.775657 700.386529 63.852903 253.723194 510.516239 700.386529 957.179574 767.411612 890.25682 387.773359 510.516239Z"/>
 </local:MyCard>

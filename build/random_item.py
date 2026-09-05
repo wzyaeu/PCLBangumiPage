@@ -18,7 +18,7 @@ def random_item_get(rs):
         )
         data = json.loads(data.text)['data'][0]
         o += t\
-        .replace('{{pic}}', f'https://bangumi.p.kaphia.qzz.io/resources/{f'fanimage_common_{data['id']}.jpg'}')\
+        .replace('{{pic}}', f'https://bangumi.p.kaphia.top/resources/{f'fanimage_common_{data['id']}.jpg'}')\
         .replace('{{rank}}', str((lambda x: x if x != 0 else '--')(data['rating']['rank'])))\
         .replace('{{score}}', str(data['rating']['score']))\
         .replace('{{name-cn}}', escape_xaml(data['name_cn'] if data['name_cn'] != '' else data['name']))\

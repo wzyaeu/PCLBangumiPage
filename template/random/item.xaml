@@ -6,7 +6,7 @@
         </Grid.ColumnDefinitions>
         <local:MyImage Height="100"
                        Width="100"
-                       FallbackSource="https://bangumi.p.kaphia.qzz.io/resources/image_placeholder_1_1.png"
+                       FallbackSource="https://bangumi.p.kaphia.top/resources/image_placeholder_1_1.png"
                        Source="{{pic}}"
                        Grid.Column="0"/>
         <StackPanel Margin="3"

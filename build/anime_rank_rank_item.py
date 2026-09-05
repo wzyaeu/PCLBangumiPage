@@ -13,7 +13,7 @@ def anime_rank_rank_item_get(json_data, i):
             resources[f'fanimage_common_{json_data['id']}.jpg'] = json_data['images'][list(json_data['images'].keys)[0]]
     
     return t\
-    .replace('{{pic}}', f'https://bangumi.p.kaphia.qzz.io/resources/{f'fanimage_common_{json_data['id']}.jpg'}' if json_data.get('images',None) != None else 'https://bangumi.p.kaphia.qzz.io/resources/image_placeholder_1_1.png')\
+    .replace('{{pic}}', f'https://bangumi.p.kaphia.top/resources/{f'fanimage_common_{json_data['id']}.jpg'}' if json_data.get('images',None) != None else 'https://bangumi.p.kaphia.top/resources/image_placeholder_1_1.png')\
     .replace('{{p}}', 'No. '+str(i))\
     .replace('{{rank}}', str(json_data['rating']['rank']))\
     .replace('{{score}}', str(json_data['rating']['score']))\
