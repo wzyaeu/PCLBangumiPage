@@ -10,7 +10,7 @@ PCL Bangumi Page主页仓库。
 
 ### 使用链接
 
-前往`设置->个性化->主页`，输入联网下载地址`bangumi.p.kaphia.top`。
+前往`设置->个性化->主页`，输入联网下载地址`https://bangumi.p.kaphia.top`。
 
 ### 帮助页跳转
 
